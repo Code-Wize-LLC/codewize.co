@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <div class="relative overflow-hidden px-4 sm:px-6 py-4 max-w-full mx-auto aspect-square lg:aspect-[2/1] flex items-center justify-center">
+    <div class="relative overflow-hidden px-4 sm:px-6 py-4 max-w-full mx-auto aspect-[9/12] lg:aspect-[2/1] flex items-center justify-center">
         <!-- Background video -->
         <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none object-cover grayscale">
             <source src="https://videos.pexels.com/video-files/3130284/3130284-uhd_2560_1440_30fps.mp4" type="video/mp4"/>
@@ -26,7 +26,7 @@
 
         <!-- Foreground content -->
         <div class="z-20 text-white text-center">
-            <div class="prose prose-invert max-w-full">
+            <div class="prose prose-sm md:prose-base prose-invert max-w-full">
                 <h1>{{ __("We Keep Your Business Running Smooth, Secure, and Smart") }}</h1>
                 <h2>{{ __("IT Consulting • Custom Software • KPI Dashboards") }}</h2>
             </div>
@@ -37,22 +37,22 @@
         <h2>Trusted by South Florida Professionals</h2>
         <div class="grid justify-center grid-cols-2 gap-8 text-zinc-400 sm:gap-12 md:grid-cols-3">
             <a href="#" class="flex justify-center items-center">
-                <img src="{{ asset('logos/mjacctaxdotcom.png') }}" alt="MJ Accounting Logo" class="h-20 grayscale hover:grayscale-0 transition-all">
+                <img src="{{ asset('logos/mjacctaxdotcom.png') }}" alt="MJ Accounting Logo" class="sm:h-20 object-fill grayscale hover:grayscale-0 transition-all">
             </a>
             <a href="#" class="flex justify-center items-center">
-                <img src="{{ asset('logos/sosmetaxservices.svg') }}" alt="SosME Logo" class="h-20 grayscale hover:grayscale-0 transition-all">
+                <img src="{{ asset('logos/sosmetaxservices.svg') }}" alt="SosME Logo" class="sm:h-20 object-fill grayscale hover:grayscale-0 transition-all">
             </a>
             <a href="#" class="flex justify-center items-center">
-                <img src="{{ asset('logos/tpbs.webp') }}" alt="TPBS Logo" class="h-20 grayscale hover:grayscale-0 transition-all opacity-75 hover:opacity-100">
+                <img src="{{ asset('logos/tpbs.webp') }}" alt="TPBS Logo" class="sm:h-20 object-fill grayscale hover:grayscale-0 transition-all opacity-75 hover:opacity-100">
             </a>
             <a href="#" class="flex justify-center items-center">
-                <img src="{{ asset('logos/atease.webp') }}" alt="At Ease Logo" class="h-20 grayscale hover:grayscale-0 transition-all">
+                <img src="{{ asset('logos/atease.webp') }}" alt="At Ease Logo" class="sm:h-20 object-fill grayscale hover:grayscale-0 transition-all">
             </a>
             <a href="#" class="flex justify-center items-center">
-                <img src="{{ asset('logos/equitable.png') }}" alt="At Ease Logo" class="h-20 grayscale hover:grayscale-0 transition-all">
+                <img src="{{ asset('logos/equitable.png') }}" alt="At Ease Logo" class="sm:h-20 object-fill grayscale hover:grayscale-0 transition-all">
             </a>
             <a href="#" class="flex justify-center items-center">
-                <img src="{{ asset('logos/mjd.png') }}" alt="At Ease Logo" class="h-20 grayscale hover:grayscale-0 transition-all">
+                <img src="{{ asset('logos/mjd.png') }}" alt="At Ease Logo" class="sm:h-20 object-fill grayscale hover:grayscale-0 transition-all">
             </a>
         </div>
     </div>
