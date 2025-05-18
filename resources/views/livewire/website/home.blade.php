@@ -33,9 +33,9 @@
         </div>
     </div>
 
-    <div class="px-4 sm:px-6 py-12 sm:py-24 max-w-screen-2xl mx-auto w-full prose prose-invert text-center">
+    <div class="px-4 sm:px-6 py-12 max-w-screen-2xl mx-auto w-full prose prose-invert text-center">
         <h2>Trusted by South Florida Professionals</h2>
-        <div class="grid justify-center grid-cols-2 gap-8 text-zinc-400 sm:gap-12 md:grid-cols-3">
+        <div class="grid justify-center grid-cols-2 gap-8 text-zinc-400 md:grid-cols-3">
             <a href="#" class="flex justify-center items-center">
                 <img src="{{ asset('logos/mjacctaxdotcom.png') }}" alt="MJ Accounting Logo" class="sm:h-20 object-fill grayscale hover:grayscale-0 transition-all">
             </a>
@@ -57,9 +57,9 @@
         </div>
     </div>
 
-    <div class="px-4 sm:px-6 py-12 sm:py-24 max-w-screen-2xl mx-auto prose prose-invert">
+    <div class="px-4 sm:px-6 py-12 sm:py-24 max-w-screen-2xl mx-auto prose prose-lg prose-invert">
         <p class="text-center">
-            {{ __("You’ve got a business to run — and the last thing you need is unreliable tech, scattered systems, or slow support. At Codewize, we help growing companies turn technology into an advantage. Whether you're struggling with aging infrastructure, overwhelmed by patchwork software, or simply tired of IT that holds you back, we step in with modern, maintainable solutions. From secure cloud setups to custom-built dashboards and business apps, we design systems that work the way *you* work — faster, safer, and smarter. It's not just support. It's strategy. Let’s simplify your tech, so you can scale your business with confidence.") }}
+            {{ __("You’ve got a business to run — you shouldn’t have to fight your tech. At Codewize, we help growing companies turn technology into an advantage. Whether it’s outdated systems, scattered software, or slow support, we step in with smart, scalable solutions. From secure cloud setups to custom dashboards and business apps, we design tech that works the way you work — faster, safer, and smarter. This isn’t just support. It’s strategy.") }}
         </p>
     </div>
 
