@@ -66,6 +66,6 @@ class ContactForm extends Component
         });
 
         session()->flash('success', 'Thank for reaching out. One of our agents will get in touch with you soon.');
-        $this->redirect(url: route('contact'), navigate: true);
+        $this->redirect(url: route('contact'), navigate: false);
     }
 }

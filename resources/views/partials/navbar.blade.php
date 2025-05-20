@@ -10,10 +10,10 @@
                 
                 <div class="text-sm flex items-center gap-2 [&>a]:border-b-2 [&>a]:border-transparent">
                     @env('local')
-                    <a href="{{ route('about') }}" wire:navigate @class(['px-1 h-8 flex items-center hover:border-accent', '!border-accent' => request()->routeIs('about')])>about</a>
-                    <a href="{{ route('services') }}" wire:navigate @class(['px-1 h-8 flex items-center hover:border-accent', '!border-accent' => request()->routeIs('services')])>services</a>
+                    <a href="{{ route('about') }}" @class(['px-1 h-8 flex items-center hover:border-accent', '!border-accent' => request()->routeIs('about')])>about</a>
+                    <a href="{{ route('services') }}" @class(['px-1 h-8 flex items-center hover:border-accent', '!border-accent' => request()->routeIs('services')])>services</a>
                     @endenv
-                    <a href="{{ route('contact') }}" wire:navigate @class(['px-1 h-8 flex items-center hover:border-accent', '!border-accent' => request()->routeIs('contact')])>contact</a>
+                    <a href="{{ route('contact') }}" @class(['px-1 h-8 flex items-center hover:border-accent', '!border-accent' => request()->routeIs('contact')])>contact</a>
                 </div>
             </div>
         </nav>
