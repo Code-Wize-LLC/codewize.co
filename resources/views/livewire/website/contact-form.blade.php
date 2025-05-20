@@ -23,11 +23,9 @@
                         <flux:spacer />
                         <flux:button variant="primary" wire:target="save" wire:loading.attr="disabled" type="submit">Start the Conversation</flux:button>
                     </div>
-                    
+
                     @if (session('success'))
-                        <div class="bg-green-100 text-green-700">
-                            {{ session('success') }}
-                        </div>
+                        <flux:callout variant="success" icon="check-circle" heading="{{ session('success') }}" />
                     @endif
                     <flux:error name="gRecaptchaResponse" />
                 </div>
