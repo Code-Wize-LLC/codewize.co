@@ -1,20 +1,4 @@
 <div>
-    <div class="px-4 sm:px-6 py-4 max-w-screen-2xl mx-auto">
-        <div class="flex items-center justify-between">
-            <flux:tooltip content="code wize">
-                <a href="{{ route('home') }}" alt="code wize" class="font-medium">
-                    {{ __('</wize>') }}
-                </a>
-            </flux:tooltip>
-
-            <div class="text-sm flex items-center gap-1">
-                <a href="{{ route('about') }}" wire:navigate class="px-3 h-8 flex items-center hover:bg-indigo-500 transition-all">about</a>
-                <a href="{{ route('services') }}" wire:navigate class="px-3 h-8 flex items-center hover:bg-indigo-500 transition-all">services</a>
-                <a href="{{ route('contact') }}" wire:navigate class="px-3 h-8 flex items-center hover:bg-indigo-500 transition-all">contact</a>
-            </div>
-        </div>
-    </div>
-
     <div class="relative overflow-hidden px-4 sm:px-6 py-4 max-w-full mx-auto aspect-[9/12] lg:aspect-[2/1] flex items-center justify-center">
         <!-- Background video -->
         <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none object-cover grayscale">
@@ -22,18 +6,18 @@
         </video>
 
         <!-- Overlay -->
-        <div class="absolute inset-0 bg-black/80 z-15"></div>
+        <div class="absolute inset-0 bg-white/80 dark:bg-black/80 z-15"></div>
 
         <!-- Foreground content -->
-        <div class="z-20 text-white text-center">
-            <div class="prose prose-sm md:prose-base prose-invert max-w-full">
+        <div class="z-20 text-center">
+            <div class="prose prose-sm md:prose-base dark:prose-invert max-w-full">
                 <h1>{{ __("We Keep Your Business Running Smooth, Secure, and Smart") }}</h1>
                 <h2>{{ __("IT Consulting • Custom Software • KPI Dashboards") }}</h2>
             </div>
         </div>
     </div>
 
-    <div class="px-4 sm:px-6 py-12 max-w-screen-2xl mx-auto w-full prose prose-invert text-center">
+    <div class="px-4 sm:px-6 py-12 max-w-screen-2xl mx-auto w-full prose dark:prose-invert text-center">
         <h2>Trusted by South Florida Professionals</h2>
         <div class="grid justify-center grid-cols-2 gap-8 text-zinc-400 md:grid-cols-3">
             <a href="#" class="flex justify-center items-center">
@@ -57,18 +41,18 @@
         </div>
     </div>
 
-    <div class="px-4 sm:px-6 py-12 sm:py-24 max-w-screen-2xl mx-auto prose prose-lg prose-invert">
+    <div class="px-4 sm:px-6 py-12 sm:py-24 max-w-screen-2xl mx-auto prose dark:prose-invert">
         <p class="text-center">
             {{ __("You’ve got a business to run — you shouldn’t have to fight your tech. At Codewize, we help growing companies turn technology into an advantage. Whether it’s outdated systems, scattered software, or slow support, we step in with smart, scalable solutions. From secure cloud setups to custom dashboards and business apps, we design tech that works the way you work — faster, safer, and smarter. This isn’t just support. It’s strategy.") }}
         </p>
     </div>
 
-    <div class="px-4 sm:px-6 py-12 sm:py-24 max-w-screen-2xl mx-auto prose prose-invert">
-        <h2>What we deliver</h2>
+    <div class="px-4 sm:px-6 py-12 sm:py-24 max-w-screen-2xl mx-auto prose dark:prose-invert">
+        <h2 class="text-center">What we deliver</h2>
         <div class="grid grid-cols-3 gap-6">
             <div class="col-span-3 sm:col-span-1">
-                <h3>Modern IT Solutions</h3>
-                <ul class="list-disc pl-6 space-y-2">
+                <h4>Modern IT Solutions</h4>
+                <ul class="space-y-2">
                     <li>Cloud Server Setup, Management & Monitoring</li>
                     <li>VoIP Phone System Setup & Support</li>
                     <li>Secure Network Design, Firewall Configuration & Maintenance</li>
@@ -80,8 +64,8 @@
 
             </div>
             <div class="col-span-3 sm:col-span-1">
-                <h3>Custom Software Development</h3>
-                <ul class="list-disc pl-6 space-y-2">
+                <h4>Custom Software Development</h4>
+                <ul class="space-y-2">
                     <li>Website Design & Development</li>
                     <li>SEO Management & Optimization</li>
                     <li>Custom Web Application Development</li>
@@ -93,8 +77,8 @@
 
             </div>
             <div class="col-span-3 sm:col-span-1">
-                <h3>KPI Dashboards & Business Intelligence</h3>
-                <ul class="list-disc pl-6 space-y-2">
+                <h4>KPI Dashboards & Business Intelligence</h4>
+                <ul class="space-y-2">
                     <li>Real-Time Metrics & Performance Dashboards</li>
                     <li>Custom Reporting Systems</li>
                     <li>Integration with Popular CRMs, ERPs, and Financial Platforms</li>

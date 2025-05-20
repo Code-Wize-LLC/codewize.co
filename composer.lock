@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61eccc5dc89e08e92f1eea8940ff4dae",
+    "content-hash": "3753abd927cd7ba115c208006b9017af",
     "packages": [
         {
             "name": "brick/math",
@@ -442,6 +442,62 @@
                 }
             ],
             "time": "2024-10-09T13:47:03+00:00"
+        },
+        {
+            "name": "dutchcodingcompany/livewire-recaptcha",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DutchCodingCompany/livewire-recaptcha.git",
+                "reference": "cdf2629c31d237ade99c41f3c6f8296207672246"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DutchCodingCompany/livewire-recaptcha/zipball/cdf2629c31d237ade99c41f3c6f8296207672246",
+                "reference": "cdf2629c31d237ade99c41f3c6f8296207672246",
+                "shasum": ""
+            },
+            "require": {
+                "livewire/livewire": "^3.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.8",
+                "larastan/larastan": "^2.9",
+                "orchestra/testbench": "^9.0",
+                "phpunit/phpunit": "^11.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "DutchCodingCompany\\LivewireRecaptcha\\LivewireRecaptchaServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DutchCodingCompany\\LivewireRecaptcha\\": "src/",
+                    "DutchCodingCompany\\LivewireRecaptcha\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Add Google Recaptcha V3 support to your Laravel Livewire components",
+            "homepage": "https://github.com/dutchcodingcompany/livewire-recaptcha",
+            "keywords": [
+                "Google ReCaptcha",
+                "dutchcodingcompany",
+                "laravel",
+                "livewire"
+            ],
+            "support": {
+                "issues": "https://github.com/DutchCodingCompany/livewire-recaptcha/issues",
+                "source": "https://github.com/DutchCodingCompany/livewire-recaptcha/tree/1.0.0"
+            },
+            "time": "2024-06-04T15:07:32+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -1055,17 +1111,77 @@
             "time": "2025-02-03T10:55:03+00:00"
         },
         {
-            "name": "laravel/framework",
-            "version": "v12.14.1",
+            "name": "hubspot/api-client",
+            "version": "13.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "84b142958d1638a7e89de94ce75c2821c601d3d7"
+                "url": "https://github.com/HubSpot/hubspot-api-php.git",
+                "reference": "efd7af3a8a1e05db993e646e74fd965d7f26ede5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/84b142958d1638a7e89de94ce75c2821c601d3d7",
-                "reference": "84b142958d1638a7e89de94ce75c2821c601d3d7",
+                "url": "https://api.github.com/repos/HubSpot/hubspot-api-php/zipball/efd7af3a8a1e05db993e646e74fd965d7f26ede5",
+                "reference": "efd7af3a8a1e05db993e646e74fd965d7f26ede5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "guzzlehttp/guzzle": "^7.3",
+                "guzzlehttp/psr7": "^1.7 || ^2.0",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.4",
+                "phpspec/phpspec": "^7.1",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HubSpot\\": "lib/",
+                    "Hubspot\\Tests\\": "tests/",
+                    "HubSpot\\Client\\": "codegen/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "HubSpot",
+                    "homepage": "https://hubspot.com/"
+                }
+            ],
+            "description": "Hubspot API client",
+            "homepage": "https://hubspot.com/",
+            "keywords": [
+                "api",
+                "hubspot",
+                "php",
+                "sdk",
+                "swagger"
+            ],
+            "support": {
+                "issues": "https://github.com/HubSpot/hubspot-api-php/issues",
+                "source": "https://github.com/HubSpot/hubspot-api-php/tree/13.0.1"
+            },
+            "time": "2025-05-13T12:48:28+00:00"
+        },
+        {
+            "name": "laravel/framework",
+            "version": "v12.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "2ef7fb183f18e547af4eb9f5a55b2ac1011f0b77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2ef7fb183f18e547af4eb9f5a55b2ac1011f0b77",
+                "reference": "2ef7fb183f18e547af4eb9f5a55b2ac1011f0b77",
                 "shasum": ""
             },
             "require": {
@@ -1267,7 +1383,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-05-13T17:50:51+00:00"
+            "time": "2025-05-20T15:10:44+00:00"
         },
         {
             "name": "laravel/prompts",

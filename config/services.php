@@ -35,4 +35,17 @@ return [
         ],
     ],
 
+    'google' => [
+        'recaptcha' => [
+            'site_key' => env('GOOGLE_RECAPTCHA_SITE_KEY'),
+            'secret_key' => env('GOOGLE_RECAPTCHA_SECRET_KEY'),
+            'version' => 'v3',
+            'score' => 0.5, // An integer between 0 and 1, that indicates the minimum score to pass the Captcha challenge.
+        ],
+    ],
+
+    'hubspot' => [
+        'token' => env('HUBSPOT_ACCESS_TOKEN'),
+    ],
+
 ];
