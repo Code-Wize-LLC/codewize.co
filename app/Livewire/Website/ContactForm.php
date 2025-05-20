@@ -32,6 +32,7 @@ class ContactForm extends Component
     #[ValidatesRecaptcha]
     public function save()
     {
+        dd('Hello');
         $this->validate([
             'firstname' => ['required'],
             'lastname' => ['required'],
