@@ -6,7 +6,7 @@
         </video>
 
         <!-- Overlay -->
-        <div class="absolute inset-0 bg-white/80 dark:bg-black/80 z-15"></div>
+        <div class="absolute inset-0 bg-white/80 dark:bg-black/60 backdrop-blur-sm z-15"></div>
 
         <!-- Foreground content -->
         <div class="z-20 text-center">
