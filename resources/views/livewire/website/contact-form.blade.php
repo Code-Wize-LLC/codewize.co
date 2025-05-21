@@ -8,7 +8,7 @@
                         <flux:input wire:model="firstname" label="First Name" />
                         <flux:input wire:model="lastname" label="Last Name" />
                     </div>
-                    <flux:input wire:model="email" label="Email Address (Work or personal — we’ll reply here)" />
+                    <flux:input wire:model="email" type="email" label="Email Address (Work or personal — we’ll reply here)" />
                     <flux:input wire:model="phone" label="Phone Number (Optional – for quicker follow-up)" mask="(999)999-9999" />
                     <flux:select wire:model="topic" label="How can we help? (Pick a topic or service)">
                         <flux:select.option value="">Select an option</flux:select.option>

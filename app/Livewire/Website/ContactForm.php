@@ -47,7 +47,7 @@ class ContactForm extends Component
         $hs = new HubspotLeadService;
 
         $payload = [
-            'email' => $this->email,
+            'email' => strtolower($this->email),
             'firstname' => $this->firstname,
             'lastname' => $this->lastname,
             'phone' => $this->phone,
