@@ -2,9 +2,8 @@
 
 namespace App\Livewire\Website;
 
-use App\Services\HubspotLeadService;
+use App\Jobs\ProcessHubspotLead;
 use DutchCodingCompany\LivewireRecaptcha\ValidatesRecaptcha;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rule;
 use Livewire\Component;
 
@@ -35,16 +34,17 @@ class ContactForm extends Component
         $this->validate([
             'firstname' => ['required'],
             'lastname' => ['required'],
-            'email' => ['required', Rule::email()->rfcCompliant()->preventSpoofing()],
+            'email' => [
+                'required',
+                Rule::unique('leads', 'email'),
+                Rule::email()->rfcCompliant()->preventSpoofing(),
+            ],
             'phone' => ['nullable', 'min:13', 'max:13'],
             'topic' => ['required'],
             'details' => ['nullable', 'max:500'],
         ]);
 
         // Save to DB
-
-        // Post to Hubspot
-        $hs = new HubspotLeadService;
 
         $payload = [
             'email' => strtolower($this->email),
@@ -55,13 +55,8 @@ class ContactForm extends Component
             'details' => $this->details,
         ];
 
-        if (! $hs->findLeadByEmail($this->email)) {
-            try {
-                $hs->createLead($payload);
-            } catch (\Throwable $th) {
-                Log::error($th);
-            }
-        }
+        // Post to Hubspot
+        ProcessHubspotLead::dispatch($payload);
 
         session()->flash('success', 'Thank for reaching out. One of our agents will get in touch with you soon.');
         $this->redirect(url: route('contact'), navigate: false);
