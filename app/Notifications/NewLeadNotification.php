@@ -32,18 +32,30 @@ class NewLeadNotification extends Notification
 
     public function toTelegram($notifiable)
     {
-        $name = $this->payload['firstname'].' '.$this->payload['lastname'];
-        $email = $this->payload['email'] ?? '';
-        $phone = $this->payload['phone'] ?? '';
-        $topic = $this->payload['topic'] ?? '';
+        $name = $this->escape(
+            trim(
+                ($this->payload['firstname'] ?? '').' '.($this->payload['lastname'] ?? '')
+            )
+        );
+
+        $email = $this->escape($this->payload['email'] ?? '');
+        $phone = $this->escape($this->payload['phone'] ?? '');
+        $topic = $this->escape($this->payload['topic'] ?? '');
 
         return TelegramMessage::create()
             ->to(config('services.telegram-bot-api.chat_id'))
-            ->line('New lead received:')
-            ->line("*Name:* $name")
-            ->line("*Email:* $email")
-            ->line("*Phone:* $phone")
-            ->line("*Topic:* $topic")
-            ->button(text: 'Go to Hubspot', url: 'https://app.hubspot.com/login');
+            ->line('*New lead received*')
+            ->line("Name: {$name}")
+            ->line("Email: {$email}")
+            ->line("Phone: {$phone}")
+            ->line("Topic: {$topic}")
+            ->button(text: 'Go to Hubspot', url: 'https://app.hubspot.com/login')
+            ->options(['parse_mode' => 'MarkdownV2']);
+    }
+
+    protected function escape(string $text): string
+    {
+        // Escape all special MarkdownV2 characters, including dot '.'
+        return preg_replace('/([_*\[\]()~`>#+\-=|{}.!\\\])/', '\\\\$1', $text);
     }
 }

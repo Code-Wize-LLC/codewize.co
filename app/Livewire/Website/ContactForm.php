@@ -2,8 +2,11 @@
 
 namespace App\Livewire\Website;
 
+use App\Jobs\ProcessHubspotLead;
+use App\Models\Lead;
 use App\Notifications\NewLeadNotification;
 use DutchCodingCompany\LivewireRecaptcha\ValidatesRecaptcha;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Validation\Rule;
 use Livewire\Component;
@@ -37,7 +40,6 @@ class ContactForm extends Component
             'lastname' => ['required'],
             'email' => [
                 'required',
-                Rule::unique('leads', 'email'),
                 Rule::email()->rfcCompliant()->preventSpoofing(),
             ],
             'phone' => ['nullable', 'min:13', 'max:13'],
@@ -56,10 +58,27 @@ class ContactForm extends Component
             'details' => $this->details,
         ];
 
-        // Post to Hubspot
+        try {
+            // Create Record in Local DB
+            Lead::updateOrCreate(
+                ['email' => $this->email],
+                [
+                    'firstname' => $this->firstname,
+                    'lastname' => $this->lastname,
+                    'phone' => $this->phone,
+                    'topic' => $this->topic,
+                    'details' => $this->details,
+                ]
+            );
 
-        // Send telegram notification
-        Notification::route('telegram', config('services.telegram-bot-api.chat_id'))->notify(new NewLeadNotification($payload));
+            // Post to Hubspot
+            ProcessHubspotLead::dispatch($payload);
+
+            // Send telegram notification
+            Notification::route('telegram', config('services.telegram-bot-api.chat_id'))->notify(new NewLeadNotification($payload));
+        } catch (\Throwable $th) {
+            Log::error($th);
+        }
 
         session()->flash('success', 'Thank for reaching out. One of our agents will get in touch with you soon.');
         $this->redirect(url: route('contact'), navigate: false);
