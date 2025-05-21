@@ -2,8 +2,9 @@
 
 namespace App\Livewire\Website;
 
-use App\Jobs\ProcessHubspotLead;
+use App\Notifications\NewLeadNotification;
 use DutchCodingCompany\LivewireRecaptcha\ValidatesRecaptcha;
+use Illuminate\Support\Facades\Notification;
 use Illuminate\Validation\Rule;
 use Livewire\Component;
 
@@ -56,7 +57,9 @@ class ContactForm extends Component
         ];
 
         // Post to Hubspot
-        ProcessHubspotLead::dispatch($payload);
+
+        // Send telegram notification
+        Notification::route('telegram', config('services.telegram-bot-api.chat_id'))->notify(new NewLeadNotification($payload));
 
         session()->flash('success', 'Thank for reaching out. One of our agents will get in touch with you soon.');
         $this->redirect(url: route('contact'), navigate: false);

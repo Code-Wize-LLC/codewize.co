@@ -48,4 +48,9 @@ return [
         'token' => env('HUBSPOT_ACCESS_TOKEN'),
     ],
 
+    'telegram-bot-api' => [
+        'chat_id' => env('TELEGRAM_CHAT_ID'),
+        'token' => env('TELEGRAM_BOT_TOKEN'),
+    ],
+
 ];
