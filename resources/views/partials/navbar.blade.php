@@ -1,6 +1,6 @@
 <div class="fixed top-0 z-40 w-full flex justify-center">
-    <div class="max-w-screen-2xl w-full px-4 sm:px-6 mt-4">
-        <nav class="py-4 px-4 sm:px-6 border dark:border-zinc-800 rounded-full bg-white/60 dark:bg-zinc-900/60 backdrop-blur-sm">
+    <div class="max-w-5xl w-full px-4 sm:px-6 mt-4">
+        <nav class="py-4 px-4 sm:px-6 border border-zinc-300/50 rounded-full bg-white/40 backdrop-blur-lg">
             <div class="flex items-center justify-between">
                 <flux:tooltip content="code wize">
                     <a href="{{ route('home') }}" alt="code wize" class="font-medium">

@@ -2,7 +2,7 @@
     <form wire:submit.prevent="save" wire:recaptcha>
         @csrf
         <div class="flex flex-col gap-6">
-            <div class="rounded-xl border bg-white dark:bg-zinc-950 dark:border-zinc-800 text-zinc-800 shadow-xs">
+            <div class="rounded-xl border bg-white text-zinc-800 shadow-xs">
                 <div class="px-4 sm:px-10 py-6 sm:py-8 space-y-6 text-left">
                     <div class="grid sm:grid-cols-2 gap-6">
                         <flux:input wire:model="firstname" label="First Name" />
