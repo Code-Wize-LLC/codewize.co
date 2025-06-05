@@ -112,7 +112,7 @@
             <div class="border-t -mx-4 border-accent/30"></div>
             <div class="py-6 text-center">
                 <div class="text-2xl md:text-3xl font-bold">Ready to Simplify Your Tech and Focus on What Matters?</div>
-                <div class="mt-3">Let’s talk about how Codewize can support your business with smarter IT, custom software, and data you can trust.</div>
+                <div class="mt-3">Let’s talk about how Code Wize can support your business with smarter IT, custom software, and data you can trust.</div>
                 <flux:button href="{{ route('contact') }}" variant="primary" class="mt-4">
                     Get a Free Consultation
                 </flux:button>
