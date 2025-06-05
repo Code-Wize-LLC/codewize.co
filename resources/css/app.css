@@ -27,8 +27,8 @@
     --color-zinc-900: var(--color-slate-900);
     --color-zinc-950: var(--color-slate-950);
 
-    --color-accent: var(--color-rose-500);
-    --color-accent-content: var(--color-rose-500);
+    --color-accent: var(--color-cyan-500);
+    --color-accent-content: var(--color-cyan-500);
     --color-accent-foreground: var(--color-white);
 }
 
