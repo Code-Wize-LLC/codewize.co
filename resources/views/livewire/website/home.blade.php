@@ -1,18 +1,18 @@
 <div>
-    <div class="relative overflow-hidden px-4 sm:px-6 py-4 max-w-full mx-auto aspect-[9/12] lg:aspect-[2/1] flex items-center justify-center">
+    <div class="relative overflow-hidden px-4 sm:px-6 py-4 max-w-full mx-auto aspect-[9/12] lg:aspect-[12/7.5] flex items-center justify-center">
         <!-- Background video -->
         <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none object-cover grayscale">
             <source src="https://videos.pexels.com/video-files/3130284/3130284-uhd_2560_1440_30fps.mp4" type="video/mp4"/>
         </video>
 
         <!-- Overlay -->
-        <div class="absolute inset-0 bg-gradient-to-b from-accent-content/80 via-accent-content-50/90 to-zinc-50 backdrop-blur-xs z-15"></div>
+        <div class="absolute inset-0 bg-black/80 backdrop-blur-xs z-15"></div>
 
         <!-- Foreground content -->
         <div class="z-20 text-center">
-            <div class="max-w-full">
+            <div class="max-w-full text-white">
                 <h1 class="text-2xl font-bold md:text-6xl md:font-extrabold">{{ __("Smart. Secure. Seamless IT.") }}</h1>
-                <h2 class="mt-3 md:text-xl">{{ __("We help small businesses run better with reliable IT, custom software, and clear data insights.") }}</h2>
+                <h2 class="mt-6 md:text-xl">{{ __("We empower businesses to operate smarter with dependable IT solutions, tailored software, and actionable data insights that drive growth.") }}</h2>
             </div>
         </div>
     </div>
