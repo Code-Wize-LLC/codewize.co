@@ -1,5 +1,5 @@
 <div class="fixed sm:top-6 z-40 w-full sm:px-4">
-    <nav class="max-w-screen-xl mx-auto sm:rounded-xl border-b border-accent/20 bg-zinc-800/40 backdrop-blur-lg text-white py-4 px-4 sm:px-6">
+    <nav class="max-w-screen-xl mx-auto sm:rounded-xl border-b border-accent/20 bg-zinc-800/40 backdrop-blur-lg text-white py-3 px-4 sm:px-6">
         <div class="flex items-center justify-between">
             <a href="{{ route('home') }}" alt="code wize" class="font-medium text-lg">
                 codewize<span class="text-accent font-black">_</span>
