@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SitemapController;
 use App\Livewire\Settings\Appearance;
 use App\Livewire\Settings\Password;
 use App\Livewire\Settings\Profile;
@@ -9,6 +10,7 @@ Route::get('/', \App\Livewire\Website\Home::class)->name('home');
 Route::get('/about', \App\Livewire\Website\Home::class)->name('about');
 Route::get('/services', \App\Livewire\Website\Home::class)->name('services');
 Route::get('/contact', \App\Livewire\Website\Contact::class)->name('contact');
+Route::get('/sitemap', SitemapController::class)->name('sitemap');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
