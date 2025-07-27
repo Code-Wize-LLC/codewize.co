@@ -24,7 +24,7 @@
             <h2>Trusted by South Florida Professionals</h2>
             <div class="grid justify-center grid-cols-2 gap-8 text-zinc-400 md:grid-cols-3">
                 <a href="#" class="flex justify-center items-center">
-                    <img src="{{ asset('logos/mjacctaxdotcom.png') }}" alt="MJ Accounting Logo" class="sm:h-20 object-fill opacity-80">
+                    <img src="{{ asset('logos/mjacctaxdotcom.webp') }}" alt="MJ Accounting Logo" class="sm:h-20 object-fill opacity-80">
                 </a>
                 <a href="#" class="flex justify-center items-center">
                     <img src="{{ asset('logos/sosmetaxservices.svg') }}" alt="SosME Logo" class="sm:h-20 object-fill opacity-80">
