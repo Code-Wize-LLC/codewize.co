@@ -14,7 +14,7 @@ class SitemapController extends Controller
     public function __invoke()
     {
         $sitemap = Sitemap::create()
-            ->add(Url::create('/home'))
+            ->add(Url::create('/'))
             ->add(Url::create('/contact'));
         $sitemap->writeToFile(public_path('sitemap.xml'));
     }
