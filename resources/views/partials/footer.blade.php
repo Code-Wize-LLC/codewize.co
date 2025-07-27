@@ -4,7 +4,7 @@
             <span>&copy; {{ now()->year }} Code Wize Technologies, LLC</span>
 
             <div class="flex items-center gap-3">
-                <a href="{{ route('contact') }}">contact</a>
+                <a href="{{ route('contact') }}">Contact</a>
             </div>
             {{-- <span>&middot;</span>
             <a href="">Terms of Service</a> --}}
