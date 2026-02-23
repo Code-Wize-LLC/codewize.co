@@ -5,7 +5,7 @@
                 <nav class="flex items-center gap-2 text-sm text-mist-400 mb-5"><a href="{{ route('home') }}"
                         class="hover:text-mist-600 transition-colors">Home</a><span>/</span><span
                         class="text-mist-600">Cloud & Email</span></nav><span
-                    class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span
+                    class="badge-blue"><span
                         class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>Cloud &amp; Email</span>
                 <h1 class="mt-4 text-4xl md:text-5xl font-bold font-display text-mist-900 tracking-tight leading-tight mb-5">Microsoft 365 & Google Workspace for Miami Businesses.<br><span class="text-blue-600 italic font-normal">Setup done right. Managed ongoing.</span></h1>
                 <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Cloud email and Microsoft 365 or Google

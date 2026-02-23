@@ -5,7 +5,7 @@
                 <nav class="flex items-center gap-2 text-sm text-mist-400 mb-5"><a href="{{ route('home') }}"
                         class="hover:text-mist-600 transition-colors">Home</a><span>/</span><span
                         class="text-mist-600">Network Security</span></nav><span
-                    class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span
+                    class="badge-blue"><span
                         class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>Network Setup &amp; Security</span>
                 <h1 class="mt-4 text-4xl md:text-5xl font-bold text-mist-900 tracking-tight leading-tight mb-5 font-display">Secure Business Network Infrastructure<br><span class="text-blue-600 italic font-normal">Built for speed. Guarded for safety.</span></h1>
                 <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Slow WiFi, outages, and unsecured

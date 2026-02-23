@@ -14,7 +14,7 @@
       </div>
       <div class="flex flex-col gap-3">
         <div class="flex items-start gap-4 rounded-xl border border-stone-100 bg-white p-5">
-          <div class="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-blue-50">
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50">
             <svg width="17" height="17" fill="none" stroke="#2563EB" stroke-width="2" viewBox="0 0 24 24">
               <rect x="2" y="3" width="20" height="14" rx="2" />
               <line x1="8" y1="21" x2="16" y2="21" />
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="flex items-start gap-4 rounded-xl border border-stone-100 bg-white p-5">
-          <div class="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-blue-50">
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50">
             <svg width="17" height="17" fill="none" stroke="#2563EB" stroke-width="2" viewBox="0 0 24 24">
               <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
             </svg>
@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="flex items-start gap-4 rounded-xl border border-stone-100 bg-white p-5">
-          <div class="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-blue-50">
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50">
             <svg width="17" height="17" fill="none" stroke="#2563EB" stroke-width="2" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
             </svg>
@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="flex items-start gap-4 rounded-xl border border-stone-100 bg-white p-5">
-          <div class="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-blue-50">
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50">
             <svg width="17" height="17" fill="none" stroke="#2563EB" stroke-width="2" viewBox="0 0 24 24">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.4 1.35h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z" />
             </svg>
@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="flex items-start gap-4 rounded-xl border border-stone-100 bg-white p-5">
-          <div class="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-blue-50">
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50">
             <svg width="17" height="17" fill="none" stroke="#2563EB" stroke-width="2" viewBox="0 0 24 24">
               <polyline points="1 4 1 10 7 10" />
               <path d="M3.51 15a9 9 0 1 0 .49-5.05" />

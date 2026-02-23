@@ -17,27 +17,27 @@
         <p class="mb-5 text-sm leading-relaxed text-stone-500">Computers, network, phones, cloud, backups — Code Wize keeps all of it running and handles issues fast. Flat monthly rate. Available when you need it.</p>
         <ul class="flex list-none flex-col gap-2">
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             Remote &amp; on-site support across Miami-Dade and South Broward
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             Microsoft 365 &amp; Google Workspace setup and management
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             Network, WiFi, and firewall configuration
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             VoIP phone systems
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             Automated backups &amp; recovery planning
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             24/7 monitoring and patch management
           </li>
         </ul>
@@ -50,27 +50,27 @@
         <p class="mb-5 text-sm leading-relaxed text-stone-500">Most IT companies stop at support tickets. Code Wize also builds software — when the spreadsheets stop working or your workflow doesn't fit anything on the market.</p>
         <ul class="flex list-none flex-col gap-2">
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             Client portals &amp; intake forms
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             Job tracking &amp; project dashboards
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             QuickBooks &amp; CRM integrations
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             Business websites with local SEO
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             Automated workflows &amp; reporting
           </li>
           <li class="flex items-start gap-2.5 text-sm leading-relaxed text-stone-500">
-            <span class="mt-0.5 flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <span class="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-50"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
             Internal tools that save hours every week
           </li>
         </ul>

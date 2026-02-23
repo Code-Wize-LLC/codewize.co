@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin '@tailwindcss/typography';
 /* @import '../../vendor/livewire/flux/dist/flux.css'; */
 
@@ -8,9 +8,12 @@
 @source '../../vendor/livewire/flux/stubs/**/*.blade.php';
 
 @theme {
-  --font-display: "Fraunces", serif;
-  --font-body: "DM Sans", sans-serif;
-  --font-sans: 'Inter', sans-serif, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-display: "Fraunces", serif;
+    --font-body: "DM Sans", sans-serif;
+    --font-sans:
+        "Inter", sans-serif, ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
 
     --color-zinc-50: var(--color-gray-50);
     --color-zinc-100: var(--color-gray-100);
@@ -27,4 +30,13 @@
     --color-accent: var(--color-violet-500);
     --color-accent-content: var(--color-violet-600);
     --color-accent-foreground: var(--color-white);
+}
+
+@layer components {
+    .badge-blue {
+        @apply inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase;
+    }
+    .badge-green {
+        @apply inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-bold tracking-widest text-green-700 uppercase;
+    }
 }

@@ -1,4 +1,6 @@
-@extends('partials.website')
+@extends('partials.website', [
+    'title' => 'Managed IT Support & Helpdesk Services',
+])
 @section('content')
     @include('website.partials.it-support.hero')
     @include('website.partials.it-support.services')

@@ -12,10 +12,10 @@
           <h3 class="mb-2 font-bold text-stone-900">Contractors &amp; Construction</h3>
           <p class="mb-4 text-sm leading-relaxed text-stone-500">General contractors, specialty trades, and construction management across Miami-Dade.</p>
           <ul class="flex list-none flex-col gap-1.5">
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>Job tracking &amp; cost management</li>
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>Subcontractor document portals</li>
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>IT support for office &amp; field</li>
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>Remote file access for job sites</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>Job tracking &amp; cost management</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>Subcontractor document portals</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>IT support for office &amp; field</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>Remote file access for job sites</li>
           </ul>
         </div>
       </div>
@@ -25,10 +25,10 @@
           <h3 class="mb-2 font-bold text-stone-900">Accounting &amp; Tax Firms</h3>
           <p class="mb-4 text-sm leading-relaxed text-stone-500">CPA firms, bookkeepers, and tax preparers in Miami-Dade and South Broward.</p>
           <ul class="flex list-none flex-col gap-1.5">
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>Secure client document portals</li>
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>QuickBooks integration &amp; reports</li>
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>Encrypted cloud backups</li>
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>Remote-ready workstations</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>Secure client document portals</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>QuickBooks integration &amp; reports</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>Encrypted cloud backups</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>Remote-ready workstations</li>
           </ul>
         </div>
       </div>
@@ -38,10 +38,10 @@
           <h3 class="mb-2 font-bold text-stone-900">Insurance Agencies &amp; Brokers</h3>
           <p class="mb-4 text-sm leading-relaxed text-stone-500">Independent agencies who need organized client data and dependable systems.</p>
           <ul class="flex list-none flex-col gap-1.5">
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>Renewal tracking &amp; dashboards</li>
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>Client communication portals</li>
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>CRM integrations &amp; automation</li>
-            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 flex-shrink-0 text-blue-500">—</span>Network security for records</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>Renewal tracking &amp; dashboards</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>Client communication portals</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>CRM integrations &amp; automation</li>
+            <li class="flex items-start gap-1.5 text-xs text-stone-400"><span class="mt-0.5 shrink-0 text-blue-500">—</span>Network security for records</li>
           </ul>
         </div>
       </div>

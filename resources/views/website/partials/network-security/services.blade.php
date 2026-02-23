@@ -1,7 +1,7 @@
 <section class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6">
         <div class="mb-10"><span
-                class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span
+                class="badge-blue"><span
                     class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>What's Covered</span>
             <h2 class="mt-4 text-3xl md:text-4xl font-bold text-mist-900 tracking-tight mb-3">Network setup and
                 security for Miami offices</h2>

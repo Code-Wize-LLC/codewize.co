@@ -1,7 +1,7 @@
 <section class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6">
         <div class="mb-10"><span
-                class="inline-flex items-center gap-1.5 bg-green-50 text-green-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span
+                class="badge-green"><span
                     class="w-1.5 h-1.5 rounded-full bg-green-600"></span>What Gets Built</span>
             <h2 class="mt-4 text-3xl md:text-4xl font-bold text-mist-900 tracking-tight mb-3">The kind of software
                 Miami businesses actually need</h2>

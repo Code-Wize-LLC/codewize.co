@@ -2,7 +2,7 @@
     <div class="max-w-6xl mx-auto px-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <div>
-                <span class="inline-flex items-center gap-1.5 bg-green-50 text-green-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span
+                <span class="badge-green"><span
                         class="w-1.5 h-1.5 rounded-full bg-green-600"></span>Real Examples</span>
                 <h2 class="mt-4 text-3xl font-bold text-mist-900 tracking-tight mb-6">What's been built for Miami
                     businesses like yours</h2>

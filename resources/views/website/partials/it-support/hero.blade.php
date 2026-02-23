@@ -5,7 +5,7 @@
                 <nav class="flex items-center gap-2 text-sm text-stone-400 mb-5"><a href="{{ route('home') }}"
                         class="hover:text-stone-600 transition-colors">Home</a><span>/</span><span
                         class="text-stone-600">IT Support</span></nav><span
-                    class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span
+                    class="badge-blue"><span
                         class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>IT Support &amp; Helpdesk</span>
                 <h1 class="mt-4 text-4xl md:text-5xl font-display font-bold text-stone-900 tracking-tight leading-tight mb-5">
                   Managed IT Support & Helpdesk Services<br><span class="text-blue-600 font-normal italic">Fast response. Zero downtime.</span>
