@@ -1,3 +1,6 @@
-<div>
-    <!-- Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. - Maria Skłodowska-Curie -->
-</div>
+@extends('partials.website')
+@section('content')
+    @include('website.partials.contact.hero')
+    @include('website.partials.contact.form-and-info')
+    @include('website.partials.contact.service-area')
+@endsection

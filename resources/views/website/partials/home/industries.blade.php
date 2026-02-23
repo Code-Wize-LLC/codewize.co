@@ -1,7 +1,7 @@
 <section id="industries" class="bg-white py-20">
   <div class="mx-auto max-w-6xl px-6">
     <div class="mb-10">
-      <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><span class="h-1.5 w-1.5 rounded-full bg-blue-600"></span>Who We Work With</span>
+      <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><span class="size-1.5 rounded-full bg-blue-600"></span>Who We Work With</span>
       <h2 class="mt-4 mb-3 text-3xl font-bold tracking-tight text-stone-900 md:text-4xl">Built for contractors, accountants, and insurance offices</h2>
       <p class="max-w-lg text-base leading-relaxed text-stone-500">We work in three industries and know them well. That means less time explaining your business and more time fixing your problems.</p>
     </div>

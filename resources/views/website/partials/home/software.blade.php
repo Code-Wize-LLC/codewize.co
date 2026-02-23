@@ -2,11 +2,11 @@
   <div class="mx-auto max-w-6xl px-6">
     <div class="grid grid-cols-1 items-start gap-14 md:grid-cols-2">
       <div>
-        <span class="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-bold tracking-widest text-green-700 uppercase"><span class="h-1.5 w-1.5 rounded-full bg-green-600"></span>Software Development</span>
+        <span class="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-bold tracking-widest text-green-700 uppercase"><span class="size-1.5 rounded-full bg-green-600"></span>Software Development</span>
         <h2 class="mt-4 mb-4 text-3xl font-bold tracking-tight text-stone-900 md:text-4xl">When the spreadsheet stops being enough</h2>
         <p class="mb-5 text-base leading-relaxed text-stone-500">We build web applications and internal tools for Miami businesses — the kind that replace a process that was never designed to scale.</p>
-        <div class="mb-5 overflow-hidden rounded-2xl bg-stone-200" style="height:220px;">
-          <img src="{{ asset('images/monitor.jpg') }}" alt="Software development" class="h-full w-full object-cover" />
+        <div class="mb-5 overflow-hidden rounded-2xl bg-stone-200 h-55">
+          <img src="{{ asset('web/pexels-thisisengineering-3861959.jpg') }}" alt="Software development" class="h-full w-full object-cover" />
         </div>
         <div class="flex flex-col gap-3">
           <div class="rounded-xl border border-stone-100 bg-stone-50 p-4">
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div>
-        <div class="mb-5 overflow-hidden rounded-2xl bg-stone-200" style="height:220px;">
+        <div class="mb-5 overflow-hidden rounded-2xl bg-stone-200 h-55">
           <img src="{{ asset('images/review.jpg') }}" alt="Code review" class="h-full w-full object-cover object-top" />
         </div>
         <div class="rounded-2xl border border-stone-100 bg-white p-7">
@@ -63,7 +63,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-10 overflow-hidden rounded-2xl bg-stone-200" style="height:220px;">
+    <div class="mt-10 overflow-hidden rounded-2xl bg-stone-200 h-55">
       <img src="{{ asset('images/multimon.jpg') }}" alt="Development setup" class="h-full w-full object-cover" style="object-position:center 45%;" />
     </div>
   </div>

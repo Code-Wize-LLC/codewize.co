@@ -18,7 +18,7 @@
                         full IT support</a></div>
             </div>
             <div class="rounded-2xl overflow-hidden bg-mist-200" style="height:380px;"><img
-                    src="{{ asset('images/cables.jpg') }}" alt="" class="w-full h-full object-cover"></div>
+                    src="{{ asset('web/pexels-field-engineer-147254-442150.jpg') }}" alt="" class="w-full h-full object-cover"></div>
         </div>
     </div>
 </section>

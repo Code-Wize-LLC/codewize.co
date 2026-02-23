@@ -1,7 +1,7 @@
 <section id="locations" class="bg-stone-50 py-20">
   <div class="mx-auto max-w-6xl px-6">
     <div class="mb-10">
-      <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><span class="h-1.5 w-1.5 rounded-full bg-blue-600"></span>Service Area</span>
+      <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><span class="size-1.5 rounded-full bg-blue-600"></span>Service Area</span>
       <h2 class="mt-4 mb-3 text-3xl font-bold tracking-tight text-stone-900 md:text-4xl">On-site throughout Miami-Dade and South Broward.</h2>
       <p class="max-w-lg text-base leading-relaxed text-stone-500">We stay in our lane geographically so we can actually be there when you need us — same day, not a support ticket and a 3-day wait.</p>
     </div>

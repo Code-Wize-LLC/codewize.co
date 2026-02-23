@@ -12,7 +12,7 @@
     <div class="grid grid-cols-1 overflow-hidden rounded-2xl border border-stone-100 md:grid-cols-2">
       <div class="border-b border-stone-100 bg-white p-10 md:border-r md:border-b-0">
         <p class="mb-4 text-6xl leading-none font-bold text-stone-100 select-none">01</p>
-        <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><span class="h-1.5 w-1.5 rounded-full bg-blue-600"></span>The foundation</span>
+        <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><span class="size-1.5 rounded-full bg-blue-600"></span>The foundation</span>
         <h3 class="mt-4 mb-3 text-2xl font-bold text-stone-900">IT Support &amp; Day-to-Day Tech</h3>
         <p class="mb-5 text-sm leading-relaxed text-stone-500">Computers, network, phones, cloud, backups — Code Wize keeps all of it running and handles issues fast. Flat monthly rate. Available when you need it.</p>
         <ul class="flex list-none flex-col gap-2">
@@ -45,7 +45,7 @@
       </div>
       <div class="bg-stone-50 p-10">
         <p class="mb-4 text-6xl leading-none font-bold text-stone-200 select-none">02</p>
-        <span class="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-bold tracking-widest text-green-700 uppercase"><span class="h-1.5 w-1.5 rounded-full bg-green-600"></span>The differentiator</span>
+        <span class="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-bold tracking-widest text-green-700 uppercase"><span class="size-1.5 rounded-full bg-green-600"></span>The differentiator</span>
         <h3 class="mt-4 mb-3 text-2xl font-bold text-stone-900">Custom Software &amp; Web Apps</h3>
         <p class="mb-5 text-sm leading-relaxed text-stone-500">Most IT companies stop at support tickets. Code Wize also builds software — when the spreadsheets stop working or your workflow doesn't fit anything on the market.</p>
         <ul class="flex list-none flex-col gap-2">

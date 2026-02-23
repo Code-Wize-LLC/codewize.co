@@ -1,0 +1,9 @@
+@extends('partials.website')
+@section('content')
+    @include('website.partials.about.hero')
+    @include('website.partials.about.story')
+    @include('website.partials.about.values')
+    @include('website.partials.about.team')
+    @include('website.partials.about.testimonials')
+    @include('website.partials.about.cta')
+@endsection
