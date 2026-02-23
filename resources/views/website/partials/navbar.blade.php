@@ -27,8 +27,12 @@
             @foreach ($navItems as $item)
                 <li>
                     <a href="{{ route($item['route']) }}"
-                        class="text-sm transition-colors duration-200
-                    {{ ($active ?? '') === $item['label'] ? 'text-blue-600 font-semibold' : 'text-mist-500 hover:text-mist-900' }}">
+                        @class([
+                            'text-sm font-medium transition-colors',
+                            'text-mist-500 hover:text-mist-900' => !request()->routeIs($item['route']),
+                            'text-blue-600' => request()->routeIs($item['route']),
+                        ])
+                    >
                         {{ $item['label'] }}
                     </a>
                 </li>
@@ -71,8 +75,11 @@
         aria-label="Mobile navigation">
         @foreach ($navItems as $item)
             <a href="{{ route($item['route']) }}"
-                class="text-sm font-medium transition-colors
-                {{ ($active ?? '') === $item['label'] ? 'text-blue-600' : 'text-mist-500 hover:text-mist-900' }}"
+                @class([
+                    'text-sm font-medium transition-colors',
+                    'text-mist-500 hover:text-mist-900' => !request()->routeIs($item['route']),
+                    'text-blue-600' => request()->routeIs($item['route']),
+                ])
                 @click="open = false">
                 {{ $item['label'] }}
             </a>

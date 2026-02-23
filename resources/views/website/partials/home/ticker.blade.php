@@ -1,0 +1,6 @@
+<div class="mt-12 overflow-hidden border-y border-stone-100 bg-white py-4" style="-webkit-mask:linear-gradient(90deg,transparent,black 10%,black 90%,transparent);">
+  <p class="mb-3 text-center text-xs font-bold tracking-widest text-stone-400 uppercase">Trusted by Miami-Dade &amp; South Broward businesses</p>
+  <div id="tickerTrack" class="flex w-max items-center will-change-transform">
+    <div class="ticker-set flex items-center gap-12 pr-12"><span class="text-sm font-semibold whitespace-nowrap text-stone-500">MJ Accounting</span><span class="text-xl text-stone-300">&middot;</span><span class="text-sm font-semibold whitespace-nowrap text-stone-500">SosME Tax Services</span><span class="text-xl text-stone-300">&middot;</span><span class="text-sm font-semibold whitespace-nowrap text-stone-500">At Ease</span><span class="text-xl text-stone-300">&middot;</span><span class="text-sm font-semibold whitespace-nowrap text-stone-500">TPBS Group</span><span class="text-xl text-stone-300">&middot;</span><span class="text-sm font-semibold whitespace-nowrap text-stone-500">MJD Group</span><span class="text-xl text-stone-300">&middot;</span><span class="text-sm font-semibold whitespace-nowrap text-stone-500">At Ease Insurance</span><span class="text-xl text-stone-300">&middot;</span></div>
+  </div>
+</div>
