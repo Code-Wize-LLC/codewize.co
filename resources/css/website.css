@@ -39,4 +39,12 @@
     .badge-green {
         @apply inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-xs font-bold tracking-widest text-green-700 uppercase;
     }
+
+    .btn-primary {
+        @apply px-5 py-2.5 rounded-xl font-semibold text-sm bg-mist-900 text-mist-50 hover:bg-blue-600 transition-colors;
+    }
+
+    .btn-secondary {
+        @apply px-5 py-2.5 rounded-xl font-semibold text-sm border border-mist-200 text-mist-700 hover:border-mist-400 transition-colors;
+    }
 }

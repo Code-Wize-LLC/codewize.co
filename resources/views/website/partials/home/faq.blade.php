@@ -2,7 +2,7 @@
   <div class="mx-auto max-w-6xl px-6">
     <div class="grid grid-cols-1 gap-14 md:grid-cols-[2fr_3fr]">
       <div>
-        <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><span class="size-1.5 rounded-full bg-blue-600"></span>FAQ</span>
+        <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><flux:icon.dot-blue />FAQ</span>
         <h2 class="mt-4 mb-3 text-3xl font-bold tracking-tight text-stone-900 md:text-4xl">Common questions</h2>
         <p class="text-sm text-stone-500">Something else? <a href="{{ route('contact') }}" class="font-semibold text-blue-600 hover:underline">Reach out &rarr;</a></p>
       </div>

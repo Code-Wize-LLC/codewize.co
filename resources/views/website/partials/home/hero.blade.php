@@ -1,23 +1,23 @@
 <section class="bg-stone-50 pt-28 pb-4">
     <div class="mx-auto max-w-6xl px-6">
-        <div class="grid grid-cols-1 items-start gap-14 md:grid-cols-2">
+        <div class="grid grid-cols-1 items-center gap-14 md:grid-cols-2">
             <div class="pt-6">
-                <span class="badge-blue"><span class="size-1.5 rounded-full bg-blue-600"></span>Miami-Dade &amp; South Broward</span>
+                <span class="badge-blue"><flux:icon.dot-blue />Miami-Dade &amp; South Broward</span>
                 <h1 class="font-display mt-5 mb-6 text-5xl leading-tight font-bold tracking-tight text-stone-900 md:text-6xl">
-                    Seamless IT & <br>Custom Software Solutions<br>
+                    <div>Seamless IT & Custom Software Solutions</div>
                     <span class="font-normal text-blue-600 italic">One partner. Complete control.</span>
                 </h1>
-                <p class="mb-8 max-w-lg text-lg leading-relaxed text-stone-500">Code Wize handles IT support for small and medium-sized organizations across Miami-Dade and South Broward - and builds the custom software your business needs when the generic tools stop working.</p>
+                <p class="mb-8 max-w-lg leading-relaxed text-stone-500">Code Wize handles IT support for small and medium-sized organizations across Miami-Dade and South Broward - and builds the custom software your business needs when the generic tools stop working.</p>
                 <div class="flex flex-wrap items-center gap-3">
-                    <a href="{{ route('it-support') }}" class="rounded-xl bg-stone-900 px-6 py-2.5 text-sm font-semibold text-stone-50 transition-colors hover:bg-blue-600">
+                    <a href="{{ route('it-support') }}" class="btn-primary">
                         Get IT Support &rarr;
                     </a>
-                    <a href="{{ route('custom-software') }}" class="flex items-center gap-1 text-sm font-semibold text-stone-500 transition-colors hover:text-stone-900">
+                    <a href="{{ route('custom-software') }}" class="btn-secondary">
                         See the software side <span>&rarr;</span>
                     </a>
                 </div>
             </div>
-            <div class="relative overflow-hidden rounded-2xl bg-stone-200 h-55 md:h-full">
+            <div class="relative overflow-hidden rounded-2xl bg-stone-200 h-64 md:h-full">
                 <img src="{{ asset('web/pexels-fotios-photos-16129705.jpg') }}" alt="IT support consultation" class="h-full w-full object-cover" />
                 <div class="absolute inset-0 bg-linear-to-t from-stone-900/40 to-transparent"></div>
                 <div class="absolute right-5 bottom-5 left-5">

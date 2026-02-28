@@ -1,7 +1,3 @@
-{{-- Navigation Bar --}}
-{{-- Usage: @include('components.navbar', ['active' => 'IT Support']) --}}
-{{-- Active options: 'IT Support' | 'Network' | 'Cloud & Email' | 'VoIP' | 'Custom Software' | 'Dashboards' --}}
-
 @php
     $navItems = [
         ['label' => 'IT Support', 'route' => 'it-support'],
@@ -13,9 +9,11 @@
     ];
 @endphp
 
-<header class="fixed inset-x-0 top-0 z-50 bg-mist-50/95 backdrop-blur-lg border-b border-black/10"
-    x-data="{ open: false }" @keydown.escape.window="open = false">
-    <div class="max-w-6xl mx-auto px-6 flex items-center justify-between h-[60px]">
+<header 
+    class="fixed inset-x-0 top-0 z-50 bg-mist-50/95 backdrop-blur-lg border-b border-black/10"
+    x-data="{ open: false }" @keydown.escape.window="open = false"
+>
+    <div class="max-w-6xl mx-auto px-6 flex items-center justify-between h-15">
 
         {{-- Logo --}}
         <a href="{{ route('home') }}" class="font-bold text-lg tracking-tight text-mist-900 no-underline">
@@ -40,28 +38,20 @@
         </ul>
 
         {{-- Desktop CTA --}}
-        <a href="{{ route('contact') }}"
-            class="hidden md:inline-block px-5 py-2 rounded-lg text-sm font-semibold
-              bg-mist-900 text-mist-50 transition-colors hover:bg-blue-600">
+        <a href="{{ route('contact') }}" class="hidden md:block btn-primary">
             Free Consultation
         </a>
 
         {{-- Mobile hamburger --}}
-        <button class="md:hidden bg-transparent border-none cursor-pointer p-1 text-mist-900" aria-label="Toggle menu"
-            :aria-expanded="open.toString()" aria-controls="mob-menu" @click="open = !open">
-            {{-- Hamburger icon --}}
-            <svg x-show="!open" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
-                viewBox="0 0 24 24" aria-hidden="true">
-                <line x1="3" y1="6" x2="21" y2="6" />
-                <line x1="3" y1="12" x2="21" y2="12" />
-                <line x1="3" y1="18" x2="21" y2="18" />
-            </svg>
-            {{-- Close icon --}}
-            <svg x-show="open" x-cloak width="22" height="22" fill="none" stroke="currentColor"
-                stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-                <line x1="18" y1="6" x2="6" y2="18" />
-                <line x1="6" y1="6" x2="18" y2="18" />
-            </svg>
+        <button class="md:hidden bg-transparent border-none cursor-pointer p-1 text-mist-900" 
+            aria-label="Toggle menu"
+            :aria-expanded="open.toString()" 
+            aria-controls="mob-menu" 
+            @click="open = !open"
+            x-cloak
+        >
+            <flux:icon.bars-2 x-show="!open" />
+            <flux:icon.x-mark x-show="open" />
         </button>
 
     </div>
@@ -85,10 +75,7 @@
             </a>
         @endforeach
 
-        <a href="{{ route('contact') }}"
-            class="mt-1 px-5 py-2 rounded-lg text-sm font-semibold text-center
-              bg-mist-900 text-mist-50 transition-colors hover:bg-blue-600"
-            @click="open = false">
+        <a href="{{ route('contact') }}" class="btn-primary text-center" @click="open = false">
             Free Consultation
         </a>
     </nav>

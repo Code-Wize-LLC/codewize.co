@@ -1,7 +1,7 @@
 <section class="bg-white py-20">
   <div class="mx-auto max-w-6xl px-6">
     <div class="mb-10">
-      <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><span class="size-1.5 rounded-full bg-blue-600"></span>Client Feedback</span>
+      <span class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><flux:icon.dot-blue />Client Feedback</span>
       <h2 class="mt-4 text-3xl font-bold tracking-tight text-stone-900 md:text-4xl">What clients say</h2>
     </div>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-3">

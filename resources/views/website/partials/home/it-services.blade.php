@@ -5,15 +5,16 @@
                 <span
                     class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase"><span
                         class="size-1.5 rounded-full bg-blue-600"></span>IT Support</span>
-                <h2 class="mt-4 mb-4 text-3xl font-bold tracking-tight text-stone-900 md:text-4xl">IT support for Miami
-                    offices that need things working — not almost working.</h2>
+                <h2 class="my-4 text-3xl font-display font-bold tracking-tight text-stone-900 md:text-4xl">
+                    IT support for Miami offices that need things working - not almost working.</h2>
                 <p class="mb-5 text-base leading-relaxed text-stone-500">Whether it's a crashed computer, a new employee
-                    who needs everything configured, or a network that's gotten sluggish — Code Wize handles it fast.
+                    who needs everything configured, or a network that's gotten sluggish - Code Wize handles it fast.
                 </p>
                 <div class="mb-5 rounded-2xl border border-stone-100 bg-stone-50 p-5">
-                    <p class="text-sm leading-relaxed text-stone-500"><strong class="font-semibold text-stone-900">What
-                            to expect:</strong> Fast response times, flat monthly pricing, and on-site availability
-                        throughout Miami-Dade and South Broward.</p>
+                    <p class="text-sm leading-relaxed text-stone-500">
+                        <strong class="font-semibold text-stone-900">What to expect:</strong>
+                        Fast response times, flat monthly pricing, and on-site availability throughout Miami-Dade and South Broward.
+                    </p>
                 </div>
                 <div class="overflow-hidden rounded-2xl bg-stone-200 h-55">
                     <img src="{{ asset('web/pexels-field-engineer-147254-442150.jpg') }}" alt="Network infrastructure"
