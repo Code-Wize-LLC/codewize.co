@@ -30,7 +30,7 @@
             </div>
             <div>
                 <div class="rounded-2xl overflow-hidden bg-mist-200 mb-5" style="height:200px;">
-                    <img src="{{ asset('images/review.jpg') }}" alt="Code review" class="w-full h-full object-cover"
+                    <img src="{{ asset('web/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg') }}" alt="Code review" class="w-full h-full object-cover"
                         style="object-position:center 30%;">
                 </div>
                 <div class="bg-mist-900 rounded-2xl p-7">

@@ -19,8 +19,8 @@
                 </div>
             </div>
             <div class="relative overflow-hidden rounded-2xl bg-stone-200" style="height:380px;">
-                <img src="{{ asset('images/team.jpg') }}" alt="Code Wize team" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-stone-900/50 to-transparent"></div>
+                <img src="{{ asset('web/austin-distel-mpN7xjKQ_Ns-unsplash.jpg') }}" alt="Code Wize team" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-linear-to-t from-stone-900/50 to-transparent"></div>
                 <div class="absolute bottom-5 left-5 right-5">
                     <div class="grid grid-cols-3 gap-3">
                         <div class="bg-stone-50/95 backdrop-blur-md rounded-xl px-4 py-3 text-center">

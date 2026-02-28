@@ -7,7 +7,7 @@
                 <h2 class="text-xl font-bold text-stone-900 mb-1">Send a message</h2>
                 <p class="text-sm text-stone-400 mb-7">We'll get back to you within a few hours during business days.</p>
 
-                <form action="{{ route('contact.send') }}" method="POST" class="flex flex-col gap-5">
+                <form action="" method="POST" class="flex flex-col gap-5">
                     @csrf
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">

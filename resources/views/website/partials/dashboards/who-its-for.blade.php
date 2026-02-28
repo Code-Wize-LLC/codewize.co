@@ -17,7 +17,7 @@
                 </ul>
             </div>
             <div class="rounded-2xl overflow-hidden bg-mist-200" style="height:340px;">
-                <img src="{{ asset('images/multimon.jpg') }}" alt="Dashboard setup"
+                <img src="{{ asset('web/campaign-creators-pypeCEaJeZY-unsplash.jpg') }}" alt="Dashboard setup"
                     class="w-full h-full object-cover" style="object-position:center 40%;">
             </div>
         </div>

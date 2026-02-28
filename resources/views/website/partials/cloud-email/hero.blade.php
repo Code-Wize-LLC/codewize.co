@@ -18,7 +18,7 @@
                         all IT services</a></div>
             </div>
             <div class="rounded-2xl overflow-hidden bg-mist-200" style="height:380px;"><img
-                    src="{{ asset('images/review.jpg') }}" alt="" class="w-full h-full object-cover"></div>
+                    src="{{ asset('web/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg') }}" alt="" class="w-full h-full object-cover"></div>
         </div>
     </div>
 </section>

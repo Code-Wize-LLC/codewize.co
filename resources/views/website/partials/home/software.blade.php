@@ -25,7 +25,7 @@
       </div>
       <div>
         <div class="mb-5 overflow-hidden rounded-2xl bg-stone-200 h-55">
-          <img src="{{ asset('images/review.jpg') }}" alt="Code review" class="h-full w-full object-cover object-top" />
+          <img src="{{ asset('web/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg') }}" alt="Code review" class="h-full w-full object-cover object-top" />
         </div>
         <div class="rounded-2xl border border-stone-100 bg-white p-7">
           <h3 class="mb-4 text-xl font-bold text-stone-900">What Code Wize builds</h3>
@@ -62,9 +62,6 @@
           <a href="{{ route('contact') }}" class="mt-5 inline-block rounded-xl bg-stone-900 px-5 py-2.5 text-sm font-semibold text-stone-50 transition-colors hover:bg-blue-600">Talk through your idea &rarr;</a>
         </div>
       </div>
-    </div>
-    <div class="mt-10 overflow-hidden rounded-2xl bg-stone-200 h-55">
-      <img src="{{ asset('images/multimon.jpg') }}" alt="Development setup" class="h-full w-full object-cover" style="object-position:center 45%;" />
     </div>
   </div>
 </section>
