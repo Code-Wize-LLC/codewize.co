@@ -7,12 +7,12 @@
                     <span>/</span>
                     <span class="text-mist-600">Services</span>
                 </nav>
-                <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>What We Do</span>
+                <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-blue />What We Do</span>
                 <h1 class="mt-4 text-4xl md:text-5xl font-bold font-display text-mist-900 tracking-tight leading-tight mb-5">
                     IT Support & Custom Software.<br>
                     <span class="text-blue-600 italic font-normal">Two services. One partner.</span>
                 </h1>
-                <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Code Wize covers both sides of the technology equation for Miami businesses — keeping your day-to-day IT running smoothly, and building the custom software that takes your operations to the next level.</p>
+                <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Code Wize covers both sides of the technology equation for Miami businesses - keeping your day-to-day IT running smoothly, and building the custom software that takes your operations to the next level.</p>
                 <div class="flex flex-wrap gap-3 items-center">
                     <a href="{{ route('contact') }}" class="px-6 py-2.5 rounded-xl font-semibold text-sm bg-mist-900 text-mist-50 hover:bg-blue-600 transition-colors">Book a free consultation &rarr;</a>
                     <a href="{{ route('home') }}#faq" class="px-5 py-2.5 rounded-xl font-semibold text-sm border border-mist-200 text-mist-700 hover:border-mist-400 transition-colors">Read common questions</a>

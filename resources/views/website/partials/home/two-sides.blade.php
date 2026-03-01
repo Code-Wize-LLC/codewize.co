@@ -60,7 +60,7 @@
                     <flux:icon.dot-green />The differentiator
                 </span>
                 <h3 class="mt-4 mb-3 text-2xl font-display font-bold text-mist-900">Custom Software &amp; Web Apps</h3>
-                <p class="mb-5 text-sm leading-relaxed text-mist-500">Most IT companies stop at support tickets. Code Wize also builds software — when the spreadsheets stop working or your workflow doesn't fit anything on the market.</p>
+                <p class="mb-5 text-sm leading-relaxed text-mist-500">Most IT companies stop at support tickets. Code Wize also builds software - when the spreadsheets stop working or your workflow doesn't fit anything on the market.</p>
                 <ul class="flex list-none flex-col gap-2">
                     <li class="flex items-center gap-2.5 text-sm leading-relaxed text-mist-500">
                         <flux:icon.web-check />

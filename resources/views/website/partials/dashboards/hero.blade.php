@@ -8,7 +8,7 @@
                     class="badge-green"><span
                         class="w-1.5 h-1.5 rounded-full bg-green-600"></span>Dashboards &amp; Reporting</span>
                 <h1 class="mt-4 text-4xl md:text-5xl font-bold font-display text-mist-900 tracking-tight leading-tight mb-5">Real-Time Business Intelligence & Reporting.<br><span class="text-blue-600 italic font-normal">Better data. Smarter decisions.</span></h1>
-                <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Your data already exists — in
+                <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Your data already exists - in
                     QuickBooks, your CRM, spreadsheets, and various tools. Code Wize pulls it together into a single
                     live dashboard so you can see what's actually happening without hunting through five different
                     systems.</p>
@@ -18,8 +18,9 @@
                         class="px-5 py-2.5 rounded-xl font-semibold text-sm border border-mist-200 text-mist-700 hover:border-mist-400 transition-colors">See
                         all software services</a></div>
             </div>
-            <div class="rounded-2xl overflow-hidden bg-mist-200" style="height:380px;"><img
-                    src="{{ asset('web/campaign-creators-pypeCEaJeZY-unsplash.jpg') }}" alt="" class="w-full h-full object-cover"></div>
+            <div class="rounded-2xl overflow-hidden bg-mist-200 h-64 md:h-100">
+                <img src="{{ asset('web/campaign-creators-pypeCEaJeZY-unsplash.jpg') }}" alt="" class="w-full h-full object-cover">
+            </div>
         </div>
     </div>
 </section>

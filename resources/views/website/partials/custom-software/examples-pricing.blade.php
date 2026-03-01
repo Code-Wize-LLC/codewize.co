@@ -24,7 +24,7 @@
                         <p class="font-semibold text-mist-900 mb-2">🛡️ Insurance renewal dashboard</p>
                         <p class="text-sm text-mist-500 leading-relaxed">A South Broward insurance agency was managing
                             renewals manually across a CRM and multiple spreadsheets. Code Wize built a live dashboard
-                            pulling from both — showing upcoming renewals, at-risk accounts, and pipeline in one view.</p>
+                            pulling from both - showing upcoming renewals, at-risk accounts, and pipeline in one view.</p>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 <div class="bg-mist-900 rounded-2xl p-7">
                     <h3 class="text-2xl font-bold text-white mb-2">Fixed-Price Projects</h3>
                     <p class="text-sm text-mist-400 leading-relaxed mb-5">Every project starts with a free scoping
-                        call. You get a fixed-price proposal — not an hourly estimate that balloons. Code Wize doesn't
+                        call. You get a fixed-price proposal - not an hourly estimate that balloons. Code Wize doesn't
                         bill by the hour.</p>
                     <p class="text-xs font-bold uppercase tracking-widest text-mist-500 mb-4">Typical project ranges</p>
                     <div class="flex flex-col">

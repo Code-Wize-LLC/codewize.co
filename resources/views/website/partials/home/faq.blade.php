@@ -16,7 +16,7 @@
                             :class="open ? 'rotate-45' : ''">+</span></button>
                     <div x-show="open" x-cloak x-transition
                         class="border-t border-mist-100 px-5 pt-1 pb-4 text-sm leading-relaxed text-mist-500">Code
-                        Wize provides on-site support throughout Miami-Dade County and southern Broward — Hollywood,
+                        Wize provides on-site support throughout Miami-Dade County and southern Broward - Hollywood,
                         Miramar, Pembroke Pines, Hallandale Beach, Davie, Weston, and Cooper City. Remote support is
                         available anywhere.</div>
                 </div>
@@ -80,7 +80,7 @@
                             :class="open ? 'rotate-45' : ''">+</span></button>
                     <div x-show="open" x-cloak x-transition
                         class="border-t border-mist-100 px-5 pt-1 pb-4 text-sm leading-relaxed text-mist-500">
-                        Occasionally. Reach out — if it's a fit, that will be clear quickly.</div>
+                        Occasionally. Reach out - if it's a fit, that will be clear quickly.</div>
                 </div>
             </div>
         </div>

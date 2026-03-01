@@ -21,11 +21,11 @@
                 <img src="{{ asset('web/pexels-fotios-photos-16129705.jpg') }}" alt="IT support consultation" class="h-full w-full object-cover" />
                 <div class="absolute inset-0 bg-linear-to-t from-mist-900/40 to-transparent"></div>
                 <div class="absolute right-5 bottom-5 left-5">
-                    <div class="flex items-center gap-3 rounded-xl bg-mist-50/95 p-4 backdrop-blur-md">
+                    <div class="flex items-center gap-3 rounded-xl bg-white/95 p-4 backdrop-blur-md">
                         <flux:avatar icon="check" iconVariant="micro" size="md" circle color="blue" />
                         <div>
                             <p class="text-sm font-semibold text-mist-900">Available same day in Miami-Dade</p>
-                            <p class="text-xs text-mist-500">On-site &amp; remote support</p>
+                            <p class="text-xs text-mist-600">On-site &amp; remote support</p>
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,7 @@
       </blockquote>
       <blockquote class="m-0 rounded-2xl border border-mist-100 bg-white p-6">
         <div class="mb-4 text-xs text-amber-400">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="mb-5 text-sm leading-relaxed text-mist-500 italic">"Code Wize built us a client portal that cut document back-and-forth in half — and they handle our IT too, so everything integrates."</p>
+        <p class="mb-5 text-sm leading-relaxed text-mist-500 italic">"Code Wize built us a client portal that cut document back-and-forth in half - and they handle our IT too, so everything integrates."</p>
         <div class="flex items-center gap-3 border-t border-mist-100 pt-4">
           <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-green-600 text-xs font-bold text-white">SM</div>
           <div>

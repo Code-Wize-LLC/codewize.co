@@ -32,6 +32,14 @@
 }
 
 @layer components {
+    .web-card {
+        @apply bg-white rounded-2xl border border-mist-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all duration-200;
+    }
+
+    .icon-wrapper {
+        @apply size-10 aspect-square rounded-xl bg-blue-50 flex items-center justify-center mb-5;
+    }
+
     .badge-blue {
         @apply inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase;
     }

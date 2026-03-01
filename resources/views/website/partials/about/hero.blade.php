@@ -7,12 +7,12 @@
                     <span>/</span>
                     <span class="text-mist-600">About</span>
                 </nav>
-                <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>About Code Wize</span>
+                <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-blue />About Code Wize</span>
                 <h1 class="mt-4 text-4xl md:text-5xl font-bold font-display text-mist-900 tracking-tight leading-tight mb-5">
                     Miami's IT partner for<br> businesses that run on trust.
                     <br><span class="text-blue-600 italic font-normal">Built here. Focused here.</span>
                 </h1>
-                <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Code Wize is a Miami-based technology company that handles IT support and builds custom software for contractors, accountants, and insurance offices across Miami-Dade and South Broward. We've been doing this for over a decade — and we only work in our lane.</p>
+                <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Code Wize is a Miami-based technology company that handles IT support and builds custom software for contractors, accountants, and insurance offices across Miami-Dade and South Broward. We've been doing this for over a decade - and we only work in our lane.</p>
                 <div class="flex flex-wrap gap-3 items-center">
                     <a href="{{ route('contact') }}" class="px-6 py-2.5 rounded-xl font-semibold text-sm bg-mist-900 text-mist-50 hover:bg-blue-600 transition-colors">Get in touch &rarr;</a>
                     <a href="{{ route('services') }}" class="px-5 py-2.5 rounded-xl font-semibold text-sm border border-mist-200 text-mist-700 hover:border-mist-400 transition-colors">See our services</a>

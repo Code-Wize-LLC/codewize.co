@@ -1,9 +1,9 @@
 <section class="py-20 bg-mist-50">
     <div class="max-w-6xl mx-auto px-6">
         <div class="mb-10">
-            <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>Client Feedback</span>
+            <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-blue />Client Feedback</span>
             <h2 class="mt-4 text-3xl md:text-4xl font-bold text-mist-900 tracking-tight mb-3">What clients say</h2>
-            <p class="text-base text-mist-500 leading-relaxed max-w-xl">From contractors in Doral to accountants in Coral Gables — here's what working with Code Wize looks like over time.</p>
+            <p class="text-base text-mist-500 leading-relaxed max-w-xl">From contractors in Doral to accountants in Coral Gables - here's what working with Code Wize looks like over time.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
             <blockquote class="m-0 rounded-2xl border border-mist-100 bg-white p-6">

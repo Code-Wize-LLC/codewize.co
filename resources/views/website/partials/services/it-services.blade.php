@@ -2,7 +2,7 @@
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-end justify-between mb-10 flex-wrap gap-4">
             <div>
-                <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>IT Services</span>
+                <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-blue />IT Services</span>
                 <h2 class="mt-4 text-3xl md:text-4xl font-bold text-mist-900 tracking-tight mb-3">Keep everything running.</h2>
                 <p class="text-base text-mist-500 leading-relaxed max-w-xl">Flat monthly rate. No hourly billing. Remote and on-site support throughout Miami-Dade and South Broward.</p>
             </div>
@@ -19,7 +19,7 @@
                         <h3 class="font-semibold text-mist-900">IT Support & Helpdesk</h3>
                         <span class="text-blue-600 text-sm group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                     </div>
-                    <p class="text-sm text-mist-500 leading-relaxed">Remote and on-site help for day-to-day issues — computers, email, software, and everything in between. Most issues resolved same day.</p>
+                    <p class="text-sm text-mist-500 leading-relaxed">Remote and on-site help for day-to-day issues - computers, email, software, and everything in between. Most issues resolved same day.</p>
                     <div class="mt-3 flex flex-wrap gap-1.5">
                         <span class="text-xs bg-mist-50 border border-mist-100 text-mist-500 rounded-lg px-2.5 py-1">Remote helpdesk</span>
                         <span class="text-xs bg-mist-50 border border-mist-100 text-mist-500 rounded-lg px-2.5 py-1">On-site visits</span>
@@ -59,7 +59,7 @@
                         <h3 class="font-semibold text-mist-900">Cloud & Email</h3>
                         <span class="text-blue-600 text-sm group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                     </div>
-                    <p class="text-sm text-mist-500 leading-relaxed">Microsoft 365 and Google Workspace setup, migration, and ongoing administration — plus email security, shared drives, and MFA so your team stays productive and protected.</p>
+                    <p class="text-sm text-mist-500 leading-relaxed">Microsoft 365 and Google Workspace setup, migration, and ongoing administration - plus email security, shared drives, and MFA so your team stays productive and protected.</p>
                     <div class="mt-3 flex flex-wrap gap-1.5">
                         <span class="text-xs bg-mist-50 border border-mist-100 text-mist-500 rounded-lg px-2.5 py-1">M365 & Google Workspace</span>
                         <span class="text-xs bg-mist-50 border border-mist-100 text-mist-500 rounded-lg px-2.5 py-1">Email migration</span>

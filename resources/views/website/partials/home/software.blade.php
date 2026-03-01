@@ -7,7 +7,7 @@
                 </span>
                 <h2 class="my-4 font-display text-3xl font-bold tracking-tight text-mist-900 md:text-4xl">When the spreadsheet stops being enough</h2>
                 <p class="mb-5 text-base leading-relaxed text-mist-500">We build web applications and internal tools for
-                    Miami businesses — the kind that replace a process that was never designed to scale.</p>
+                    Miami businesses - the kind that replace a process that was never designed to scale.</p>
                 <div class="mb-5 overflow-hidden rounded-2xl bg-mist-200 h-55">
                     <img src="{{ asset('web/pexels-thisisengineering-3861959.jpg') }}" alt="Software development"
                         class="h-full w-full object-cover" />
@@ -15,13 +15,13 @@
                 <div class="flex flex-col gap-3">
                     <div class="rounded-xl border border-mist-100 bg-mist-50 p-4">
                         <p class="mb-1 text-sm font-semibold text-mist-900">🏗️ Contractor job tracker</p>
-                        <p class="text-xs leading-relaxed text-mist-500">Custom web app replacing 4 spreadsheets —
+                        <p class="text-xs leading-relaxed text-mist-500">Custom web app replacing 4 spreadsheets -
                             tracks jobs, materials, subs, and sends automatic client updates.</p>
                     </div>
                     <div class="rounded-xl border border-mist-100 bg-mist-50 p-4">
                         <p class="mb-1 text-sm font-semibold text-mist-900">📊 Accounting firm client portal</p>
                         <p class="text-xs leading-relaxed text-mist-500">Secure document upload, e-signatures, and
-                            status tracking — saving 10+ hours per week in tax season.</p>
+                            status tracking - saving 10+ hours per week in tax season.</p>
                     </div>
                     <div class="rounded-xl border border-mist-100 bg-mist-50 p-4">
                         <p class="mb-1 text-sm font-semibold text-mist-900">🛡️ Insurance renewal dashboard</p>
@@ -60,7 +60,7 @@
                         </li>
                         <li class="flex items-center gap-2.5 text-sm leading-relaxed text-mist-500">
                             <flux:icon.web-check />
-                            Automated workflows — invoicing, follow-ups, alerts
+                            Automated workflows - invoicing, follow-ups, alerts
                         </li>
                     </ul>
                     <div class="mt-5 border-t border-mist-100 pt-5">

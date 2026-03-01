@@ -2,8 +2,7 @@
     <div class="max-w-6xl mx-auto px-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div>
-                <span class="badge-blue"><span
-                        class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>How It Works</span>
+                <span class="badge-blue"><flux:icon.dot-blue />How It Works</span>
                 <h2 class="mt-4 text-3xl font-bold text-mist-900 tracking-tight mb-4">Getting started is
                     straightforward.</h2>
                 <p class="text-sm text-mist-500 leading-relaxed mb-8">No drawn-out onboarding. No multi-month IT
@@ -36,7 +35,7 @@
                     <div class="w-8 h-8 rounded-full bg-mist-900 text-white flex items-center justify-center text-sm font-bold shrink-0">4</div>
                     <div><strong class="text-sm font-semibold text-mist-900 block mb-1">Call when you need us</strong>
                         <p class="text-sm text-mist-500 leading-relaxed">That's it. Reach out when something comes up.
-                            Code Wize responds — not a ticketing queue.</p>
+                            Code Wize responds - not a ticketing queue.</p>
                     </div>
                 </div>
             </div>
@@ -59,7 +58,7 @@
                 <div class="bg-white rounded-2xl border border-mist-100 p-5 mt-4">
                     <p class="text-sm text-mist-500 leading-relaxed"><strong class="text-mist-900 font-semibold">Who
                             this is for:</strong> Contractor offices, accounting firms, and insurance agencies in
-                        Miami-Dade and South Broward — typically 2 to 50 employees — who need their technology handled
+                        Miami-Dade and South Broward - typically 2 to 50 employees - who need their technology handled
                         without hiring full-time IT staff.</p>
                 </div>
             </div>

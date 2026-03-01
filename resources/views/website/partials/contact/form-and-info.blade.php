@@ -54,7 +54,7 @@
                             <option value="custom-software" {{ old('service') == 'custom-software' ? 'selected' : '' }}>Custom Software Development</option>
                             <option value="web-apps" {{ old('service') == 'web-apps' ? 'selected' : '' }}>Web Applications & Portals</option>
                             <option value="dashboards" {{ old('service') == 'dashboards' ? 'selected' : '' }}>Dashboards & Reporting</option>
-                            <option value="not-sure" {{ old('service') == 'not-sure' ? 'selected' : '' }}>Not sure yet — just exploring</option>
+                            <option value="not-sure" {{ old('service') == 'not-sure' ? 'selected' : '' }}>Not sure yet - just exploring</option>
                         </select>
                     </div>
 
@@ -130,7 +130,7 @@
                         </div>
                         <div class="flex gap-3 items-start">
                             <div class="w-6 h-6 rounded-full bg-blue-50 text-blue-600 border border-blue-100 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">3</div>
-                            <p class="text-sm text-mist-500 leading-relaxed">If it's a fit, you'll get a clear proposal — flat rate, no surprises.</p>
+                            <p class="text-sm text-mist-500 leading-relaxed">If it's a fit, you'll get a clear proposal - flat rate, no surprises.</p>
                         </div>
                     </div>
                 </div>

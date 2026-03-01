@@ -4,7 +4,7 @@
             <div>
                 <span class="inline-flex items-center gap-1.5 bg-green-50 text-green-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span>Software Services</span>
                 <h2 class="mt-4 text-3xl md:text-4xl font-bold text-mist-900 tracking-tight mb-3">When the spreadsheet stops being enough.</h2>
-                <p class="text-base text-mist-500 leading-relaxed max-w-xl">Fixed-price projects. Free scoping call. No hourly billing — ever.</p>
+                <p class="text-base text-mist-500 leading-relaxed max-w-xl">Fixed-price projects. Free scoping call. No hourly billing - ever.</p>
             </div>
             <a href="{{ route('custom-software') }}" class="flex-shrink-0 text-sm font-semibold text-green-600 hover:text-green-700 transition-colors">See all software services &rarr;</a>
         </div>
@@ -18,7 +18,7 @@
                     <span class="text-green-600 text-sm group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
                 <h3 class="font-semibold text-mist-900 mb-2">Custom Software</h3>
-                <p class="text-sm text-mist-500 leading-relaxed flex-1">Web applications, internal tools, and business portals built around your exact workflow — not generic software you have to adapt to.</p>
+                <p class="text-sm text-mist-500 leading-relaxed flex-1">Web applications, internal tools, and business portals built around your exact workflow - not generic software you have to adapt to.</p>
                 <div class="mt-4 pt-4 border-t border-mist-100">
                     <p class="text-xs text-mist-400">Client portals · Job trackers · Document automation · Workflow tools</p>
                 </div>
@@ -48,7 +48,7 @@
                     <span class="text-green-600 text-sm group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
                 <h3 class="font-semibold text-mist-900 mb-2">Dashboards & Reporting</h3>
-                <p class="text-sm text-mist-500 leading-relaxed flex-1">Live business intelligence pulling from QuickBooks, your CRM, and other tools into a single view — with scheduled reports and one-click exports.</p>
+                <p class="text-sm text-mist-500 leading-relaxed flex-1">Live business intelligence pulling from QuickBooks, your CRM, and other tools into a single view - with scheduled reports and one-click exports.</p>
                 <div class="mt-4 pt-4 border-t border-mist-100">
                     <p class="text-xs text-mist-400">KPI dashboards · QuickBooks integration · Scheduled reports</p>
                 </div>
@@ -63,7 +63,7 @@
                 </div>
                 <div>
                     <p class="text-sm font-semibold text-mist-900 mb-1">Fixed-price proposals</p>
-                    <p class="text-xs text-mist-500 leading-relaxed">Every project starts with a free scoping call. You get a firm price — not an hourly estimate that grows.</p>
+                    <p class="text-xs text-mist-500 leading-relaxed">Every project starts with a free scoping call. You get a firm price - not an hourly estimate that grows.</p>
                 </div>
             </div>
             <div class="flex gap-3 items-start">
@@ -80,7 +80,7 @@
                     <svg width="14" height="14" viewBox="0 0 10 10" fill="none"><path d="M2 5l2 2 4-4" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </div>
                 <div>
-                    <p class="text-sm font-semibold text-mist-900 mb-1">No hourly billing — ever</p>
+                    <p class="text-sm font-semibold text-mist-900 mb-1">No hourly billing - ever</p>
                     <p class="text-xs text-mist-500 leading-relaxed">Whether IT support or a software project, pricing is flat and disclosed before any work begins.</p>
                 </div>
             </div>

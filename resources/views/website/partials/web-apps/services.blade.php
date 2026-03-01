@@ -4,11 +4,11 @@
                 class="badge-green"><span
                     class="w-1.5 h-1.5 rounded-full bg-green-600"></span>Types of Apps</span>
             <h2 class="mt-4 text-3xl md:text-4xl font-display font-bold text-mist-900 tracking-tight mb-3">What Code Wize builds</h2>
-            <p class="text-base text-mist-500 leading-relaxed max-w-2xl">Purpose-built for your business — not generic
+            <p class="text-base text-mist-500 leading-relaxed max-w-2xl">Purpose-built for your business - not generic
                 templates adapted to fit.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-            <div class="bg-white rounded-2xl border border-mist-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all duration-200">
+            <div class="web-card">
                 <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
@@ -16,9 +16,9 @@
                     </svg></div>
                 <h3 class="font-semibold text-mist-900 mb-2">Client Portals</h3>
                 <p class="text-sm text-mist-500 leading-relaxed">Branded, secure portals where clients log in to upload
-                    documents, view status, sign agreements, and communicate — replacing endless email threads.</p>
+                    documents, view status, sign agreements, and communicate - replacing endless email threads.</p>
             </div>
-            <div class="bg-white rounded-2xl border border-mist-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all duration-200">
+            <div class="web-card">
                 <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
@@ -28,9 +28,9 @@
                     </svg></div>
                 <h3 class="font-semibold text-mist-900 mb-2">Online Intake &amp; Forms</h3>
                 <p class="text-sm text-mist-500 leading-relaxed">Replace PDF forms and email attachments with smart
-                    online intake — conditional questions, file uploads, e-signatures, and automatic data routing.</p>
+                    online intake - conditional questions, file uploads, e-signatures, and automatic data routing.</p>
             </div>
-            <div class="bg-white rounded-2xl border border-mist-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all duration-200">
+            <div class="web-card">
                 <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="3" y="4" width="18" height="18" rx="2" />
@@ -40,9 +40,9 @@
                     </svg></div>
                 <h3 class="font-semibold text-mist-900 mb-2">Scheduling &amp; Booking</h3>
                 <p class="text-sm text-mist-500 leading-relaxed">Custom scheduling tools for client appointments,
-                    inspections, or consultations — integrated with your calendar and sending automatic confirmations.</p>
+                    inspections, or consultations - integrated with your calendar and sending automatic confirmations.</p>
             </div>
-            <div class="bg-white rounded-2xl border border-mist-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all duration-200">
+            <div class="web-card">
                 <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="2" y="3" width="20" height="14" rx="2" />
@@ -51,9 +51,9 @@
                     </svg></div>
                 <h3 class="font-semibold text-mist-900 mb-2">Internal Admin Tools</h3>
                 <p class="text-sm text-mist-500 leading-relaxed">Custom internal apps for managing clients, tracking
-                    work, and generating reports — built for your team's exact workflow.</p>
+                    work, and generating reports - built for your team's exact workflow.</p>
             </div>
-            <div class="bg-white rounded-2xl border border-mist-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all duration-200">
+            <div class="web-card">
                 <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <circle cx="12" cy="12" r="10" />
@@ -62,9 +62,9 @@
                     </svg></div>
                 <h3 class="font-semibold text-mist-900 mb-2">Business Websites</h3>
                 <p class="text-sm text-mist-500 leading-relaxed">Fast, conversion-focused websites built to rank in
-                    Miami-Dade local search and bring in the right clients — not templated sites that look generic.</p>
+                    Miami-Dade local search and bring in the right clients - not templated sites that look generic.</p>
             </div>
-            <div class="bg-white rounded-2xl border border-mist-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all duration-200">
+            <div class="web-card">
                 <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -73,7 +73,7 @@
                     </svg></div>
                 <h3 class="font-semibold text-mist-900 mb-2">API &amp; Third-Party Integrations</h3>
                 <p class="text-sm text-mist-500 leading-relaxed">Connect your web app to QuickBooks, your CRM, email
-                    platforms, or any service with an API — so data flows automatically instead of being re-entered.</p>
+                    platforms, or any service with an API - so data flows automatically instead of being re-entered.</p>
             </div>
         </div>
     </div>

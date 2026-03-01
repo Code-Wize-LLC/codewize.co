@@ -1,1 +1,1 @@
-<span class="size-1.5 rounded-full bg-blue-600"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>

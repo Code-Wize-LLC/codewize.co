@@ -1,13 +1,15 @@
-<section class="py-20 bg-mist-50">
-    <div class="max-w-6xl mx-auto px-6">
-        <div class="relative bg-mist-900 rounded-3xl overflow-hidden text-center px-8 py-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">Let's build something that fits.</h2>
-            <p class="text-mist-400 text-base max-w-md mx-auto mb-8 leading-relaxed">Free scoping call — describe what
-                you need, and Code Wize will tell you what it would take.</p><a href="{{ route('contact') }}"
-                class="inline-block px-7 py-3 rounded-xl font-semibold text-sm bg-white text-mist-900 hover:bg-blue-50 hover:text-blue-600 transition-colors">Book
-                a free consultation &rarr;</a>
-            <p class="mt-4 text-xs text-mist-600">Serving Miami-Dade &amp; South Broward &middot; Response within a
-                few hours</p>
+<section class="bg-white py-20">
+    <div class="mx-auto max-w-6xl px-6">
+        <div class="relative overflow-hidden rounded-3xl">
+            <!-- Background image layer -->
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('{{ asset('web/taylor-vick-M5tzZtFCOfs-unsplash.jpg') }}')"></div>
+            <!-- Gradient + content layer sits on top -->
+            <div class="relative px-8 py-16 text-center bg-linear-to-t from-mist-950 to-mist-950/60">
+              <h2 class="mb-4 text-3xl leading-tight font-bold text-white md:text-4xl font-display">Let's build something that fits.</h2>
+              <p class="mx-auto mb-8 max-w-md text-base leading-relaxed text-white">Free scoping call - describe what you need, and Code Wize will tell you what it would take.</p>
+              <a href="{{ route('contact') }}" class="inline-block rounded-xl bg-white px-5 py-3 text-sm font-semibold text-mist-900 transition-colors hover:bg-blue-50 hover:text-blue-600">Book a free consultation &rarr;</a>
+              <p class="mt-4 text-xs text-mist-100">Serving Miami-Dade &amp; South Broward &middot; Response within a few hours</p>
+            </div>
         </div>
     </div>
 </section>
