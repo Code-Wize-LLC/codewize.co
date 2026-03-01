@@ -1,13 +1,6 @@
-{{-- Site Footer --}}
-{{-- Usage: @include('components.footer') --}}
-
 <footer class="bg-mist-950 text-mist-400 pt-14 pb-8">
     <div class="max-w-6xl mx-auto px-6">
-
-        {{-- Top grid --}}
         <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-10 pb-10 border-b border-white/10">
-
-            {{-- Brand / contact --}}
             <div>
                 <a href="{{ route('home') }}"
                     class="block font-bold text-lg tracking-tight text-mist-100 mb-3 no-underline">
@@ -18,9 +11,9 @@
                     and insurance offices in Miami-Dade and South Broward.
                 </p>
                 <address class="not-italic mt-5 flex flex-col gap-1 text-sm">
-                    <span>Miami, Florida</span>
-                    <a href="mailto:hello@codewize.co" class="hover:text-mist-100 transition-colors">
-                        hello@codewize.co
+                    <span>Pembroke Pines, Florida</span>
+                    <a href="tel:17543649364" class="hover:text-mist-100 transition-colors">
+                        +1 754.364.9364
                     </a>
                 </address>
             </div>
@@ -63,7 +56,7 @@
         {{-- Bottom bar --}}
         <div class="pt-6 flex flex-wrap justify-between gap-3 text-xs text-mist-600">
             <span>
-                &copy; {{ date('Y') }} Code Wize Technologies, LLC &middot; Miami, Florida
+                &copy; {{ date('Y') }} Code Wize Technologies, LLC &middot; Pembroke Pines, Florida
             </span>
             <span>
                 IT Support &amp; Custom Software &middot; Miami-Dade &amp; South Broward

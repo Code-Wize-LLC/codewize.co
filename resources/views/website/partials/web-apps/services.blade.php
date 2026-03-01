@@ -3,7 +3,7 @@
         <div class="mb-10"><span
                 class="badge-green"><span
                     class="w-1.5 h-1.5 rounded-full bg-green-600"></span>Types of Apps</span>
-            <h2 class="mt-4 text-3xl md:text-4xl font-bold text-mist-900 tracking-tight mb-3">What Code Wize builds</h2>
+            <h2 class="mt-4 text-3xl md:text-4xl font-display font-bold text-mist-900 tracking-tight mb-3">What Code Wize builds</h2>
             <p class="text-base text-mist-500 leading-relaxed max-w-2xl">Purpose-built for your business — not generic
                 templates adapted to fit.</p>
         </div>

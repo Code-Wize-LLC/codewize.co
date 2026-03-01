@@ -1,1 +1,1 @@
-<flux:icon.dot-blue />
+<span class="size-1.5 rounded-full bg-blue-600"></span>

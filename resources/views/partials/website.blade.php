@@ -3,7 +3,7 @@
     <head>
         @include('website.partials.head')
     </head>
-    <body class="min-h-screen antialiased font-body">
+    <body class="min-h-screen antialiased font-sans">
         @include('website.partials.navbar')
 
         @yield('content')
