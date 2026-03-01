@@ -7,7 +7,7 @@
             <div class="relative px-8 py-16 text-center bg-linear-to-t from-mist-950 to-mist-950/60">
               <h2 class="mb-4 text-3xl leading-tight font-bold text-white md:text-4xl font-display">Ready to see your business clearly?</h2>
               <p class="mx-auto mb-8 max-w-md text-base leading-relaxed text-white">Free scoping call - describe what you need to see, and Code Wize builds a dashboard around it.</p>
-              <a href="{{ route('contact') }}" class="inline-block rounded-xl bg-white px-5 py-3 text-sm font-semibold text-mist-900 transition-colors hover:bg-blue-50 hover:text-blue-600">Book a free consultation &rarr;</a>
+              <a href="{{ route('contact') }}" class="btn-primary-inversed">Book a free consultation &rarr;</a>
               <p class="mt-4 text-xs text-mist-100">Serving Miami-Dade &amp; South Broward &middot; Response within a few hours</p>
             </div>
         </div>

@@ -51,6 +51,10 @@
         @apply px-5 py-2.5 rounded-xl font-semibold text-sm bg-mist-900 text-mist-50 hover:bg-blue-600 transition-colors;
     }
 
+    .btn-primary-inversed {
+        @apply inline-block rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-mist-900 transition-colors hover:bg-blue-50 hover:text-blue-600;
+    }
+
     .btn-secondary {
         @apply px-5 py-2.5 rounded-xl font-semibold text-sm border border-mist-200 text-mist-700 hover:border-mist-400 transition-colors;
     }
