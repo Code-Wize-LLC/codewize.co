@@ -16,8 +16,9 @@
                         class="px-5 py-2.5 rounded-xl font-semibold text-sm border border-mist-200 text-mist-700 hover:border-mist-400 transition-colors">See
                         full IT support</a></div>
             </div>
-            <div class="rounded-2xl overflow-hidden bg-mist-200 h-64 md:h-100"><img
-                    src="{{ asset('web/pexels-field-engineer-147254-442150.jpg') }}" alt="" class="w-full h-full object-cover"></div>
+            <div class="rounded-2xl overflow-hidden bg-mist-200 h-64 md:h-100">
+                <img src="{{ asset('web/yuriy-vertikov-c-lSQecD9oI-unsplash.webp') }}" alt="" class="w-full h-full object-cover">
+            </div>
         </div>
     </div>
 </section>
