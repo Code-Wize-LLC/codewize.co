@@ -1,7 +1,7 @@
 <section class="bg-mist-50 py-20">
     <div class="mx-auto max-w-6xl px-6">
         <div class="relative mb-10 overflow-hidden rounded-2xl bg-mist-800" style="height:260px;">
-            <img src="{{ asset('web/austin-distel-mpN7xjKQ_Ns-unsplash.jpg') }}" alt="Team" class="h-full w-full object-cover object-center opacity-60" />
+            <img src="{{ asset('web/austin-distel-mpN7xjKQ_Ns-unsplash.webp') }}" alt="Team" class="h-full w-full object-cover object-center opacity-60" />
             <div class="absolute inset-0 flex items-center px-10 md:px-14 bg-linear-to-r from-mist-900/50 to-transparent">
                 <div class="max-w-md">
                     <p class="mb-2 text-xs font-bold tracking-widest text-white/60 uppercase">What Code Wize Does</p>

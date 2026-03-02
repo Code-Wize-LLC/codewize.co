@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="relative overflow-hidden rounded-2xl bg-mist-200" style="height:380px;">
-                <img src="{{ asset('web/austin-distel-mpN7xjKQ_Ns-unsplash.jpg') }}" alt="Code Wize team" class="w-full h-full object-cover">
+                <img src="{{ asset('web/austin-distel-mpN7xjKQ_Ns-unsplash.webp') }}" alt="Code Wize team" class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-linear-to-t from-mist-900/50 to-transparent"></div>
                 <div class="absolute bottom-5 left-5 right-5">
                     <div class="grid grid-cols-3 gap-3">
