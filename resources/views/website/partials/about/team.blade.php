@@ -8,7 +8,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div class="group bg-mist-50 rounded-2xl border border-mist-100 overflow-hidden">
                 <div class="h-52 bg-mist-200 relative overflow-hidden">
-                    <img src="{{ asset('images/team/lead.jpg') }}" alt="Team member" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                    <img src="{{ asset('images/team/lead.webp') }}" alt="Team member" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
                 </div>
                 <div class="p-6">
                     <p class="font-bold text-mist-900 mb-0.5">Carlos M.</p>
@@ -18,7 +18,7 @@
             </div>
             <div class="group bg-mist-50 rounded-2xl border border-mist-100 overflow-hidden">
                 <div class="h-52 bg-mist-200 relative overflow-hidden">
-                    <img src="{{ asset('images/team/software.jpg') }}" alt="Team member" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                    <img src="{{ asset('images/team/software.webp') }}" alt="Team member" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
                 </div>
                 <div class="p-6">
                     <p class="font-bold text-mist-900 mb-0.5">Ana P.</p>
@@ -28,7 +28,7 @@
             </div>
             <div class="group bg-mist-50 rounded-2xl border border-mist-100 overflow-hidden">
                 <div class="h-52 bg-mist-200 relative overflow-hidden">
-                    <img src="{{ asset('images/team/support.jpg') }}" alt="Team member" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                    <img src="{{ asset('images/team/support.webp') }}" alt="Team member" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
                 </div>
                 <div class="p-6">
                     <p class="font-bold text-mist-900 mb-0.5">Marco R.</p>

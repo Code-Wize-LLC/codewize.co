@@ -9,7 +9,7 @@
                 <p class="mb-5 text-base leading-relaxed text-mist-500">We build web applications and internal tools for
                     Miami businesses - the kind that replace a process that was never designed to scale.</p>
                 <div class="mb-5 overflow-hidden rounded-2xl bg-mist-200 h-55">
-                    <img src="{{ asset('web/pexels-thisisengineering-3861959.jpg') }}" alt="Software development"
+                    <img src="{{ asset('web/pexels-thisisengineering-3861959.webp') }}" alt="Software development"
                         class="h-full w-full object-cover" />
                 </div>
                 <div class="flex flex-col gap-3">
@@ -32,7 +32,7 @@
             </div>
             <div>
                 <div class="mb-5 overflow-hidden rounded-2xl bg-mist-200 h-55">
-                    <img src="{{ asset('web/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg') }}" alt="Code review"
+                    <img src="{{ asset('web/kevin-ku-w7ZyuGYNpRQ-unsplash.webp') }}" alt="Code review"
                         class="h-full w-full object-cover object-top" />
                 </div>
                 <div class="rounded-2xl border border-mist-100 bg-white p-7">

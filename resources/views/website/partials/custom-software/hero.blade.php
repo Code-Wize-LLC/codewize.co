@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="rounded-2xl overflow-hidden bg-mist-200 h-64 md:h-100">
-                <img src="{{ asset('web/pexels-thisisengineering-3861959.jpg') }}" alt=""
+                <img src="{{ asset('web/pexels-thisisengineering-3861959.webp') }}" alt=""
                     class="w-full h-full object-cover" />
             </div>
         </div>

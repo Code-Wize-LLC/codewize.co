@@ -18,7 +18,7 @@
                         all software services</a></div>
             </div>
             <div class="rounded-2xl overflow-hidden bg-mist-200 h-64 md:h-100"><img
-                    src="{{ asset('web/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg') }}" alt="" class="w-full h-full object-cover"></div>
+                    src="{{ asset('web/kevin-ku-w7ZyuGYNpRQ-unsplash.webp') }}" alt="" class="w-full h-full object-cover"></div>
         </div>
     </div>
 </section>

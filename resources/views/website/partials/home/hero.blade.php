@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="relative overflow-hidden rounded-2xl bg-mist-200 h-64 md:h-full">
-                <img src="{{ asset('web/pexels-fotios-photos-16129705.jpg') }}" alt="IT support consultation" class="h-full w-full object-cover" />
+                <img src="{{ asset('web/pexels-fotios-photos-16129705.webp') }}" alt="IT support consultation" class="h-full w-full object-cover" />
                 <div class="absolute inset-0 bg-linear-to-t from-mist-900/40 to-transparent"></div>
                 <div class="absolute right-5 bottom-5 left-5">
                     <div class="flex items-center gap-3 rounded-xl bg-white/95 p-4 backdrop-blur-md">

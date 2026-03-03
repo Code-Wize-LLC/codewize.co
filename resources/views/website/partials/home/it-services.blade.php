@@ -11,7 +11,7 @@
                     </p>
                 </div>
                 <div class="overflow-hidden rounded-2xl bg-mist-200 h-55">
-                    <img src="{{ asset('web/pexels-field-engineer-147254-442150.jpg') }}" alt="Network infrastructure"
+                    <img src="{{ asset('web/pexels-field-engineer-147254-442150.webp') }}" alt="Network infrastructure"
                         class="h-full w-full object-cover" />
                 </div>
             </div>

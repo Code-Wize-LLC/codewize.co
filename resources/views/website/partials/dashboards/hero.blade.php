@@ -19,7 +19,7 @@
                         all software services</a></div>
             </div>
             <div class="rounded-2xl overflow-hidden bg-mist-200 h-64 md:h-100">
-                <img src="{{ asset('web/campaign-creators-pypeCEaJeZY-unsplash.jpg') }}" alt="" class="w-full h-full object-cover">
+                <img src="{{ asset('web/campaign-creators-pypeCEaJeZY-unsplash.webp') }}" alt="" class="w-full h-full object-cover">
             </div>
         </div>
     </div>
