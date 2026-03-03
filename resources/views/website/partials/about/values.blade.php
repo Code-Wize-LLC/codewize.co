@@ -28,14 +28,14 @@
                 <p class="text-sm text-mist-500 leading-relaxed">If you don't need something, we'll tell you. If your problem is bigger than you realize, we'll tell you that too - before you sign anything.</p>
             </div>
             <div class="bg-white rounded-2xl border border-mist-100 p-7">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5">
+                <div class="icon-wrapper-green">
                     <svg width="20" height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </div>
                 <h3 class="font-bold text-mist-900 mb-2">Industry-specific focus</h3>
                 <p class="text-sm text-mist-500 leading-relaxed">We don't serve restaurants, healthcare, retail, or law firms. We serve contractors, accountants, and insurance offices - and we know all three well enough to solve problems without a learning curve.</p>
             </div>
             <div class="bg-white rounded-2xl border border-mist-100 p-7">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5">
+                <div class="icon-wrapper-green">
                     <svg width="20" height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                 </div>
                 <h3 class="font-bold text-mist-900 mb-2">Response that actually means same day</h3>

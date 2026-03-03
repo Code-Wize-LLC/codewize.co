@@ -7,7 +7,7 @@
             <div class="relative px-8 py-16 text-center bg-linear-to-t from-mist-950 to-mist-950/60">
               <h2 class="mb-4 text-3xl leading-tight font-bold text-white md:text-4xl font-display">Ready to build something?</h2>
               <p class="mx-auto mb-8 max-w-md text-base leading-relaxed text-white">Free scoping call - describe the problem, and Code Wize will tell you honestly what it would take to solve it.</p>
-              <a href="{{ route('contact') }}" class="btn-primary-inversed">Book a free consultation &rarr;</a>
+              <a href="{{ route('contact') }}" class="btn-primary-inverse">Book a free consultation &rarr;</a>
               <p class="mt-4 text-xs text-mist-100">Serving Miami-Dade &amp; South Broward &middot; Response within a few hours</p>
             </div>
         </div>

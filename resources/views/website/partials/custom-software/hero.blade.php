@@ -8,7 +8,7 @@
                     <span class="text-mist-600">Custom Software</span>
                 </nav>
                 <span class="badge-green">
-                    <span class="w-1.5 h-1.5 rounded-full bg-green-600"></span>
+                    <flux:icon.dot-green />
                     Custom Software Development
                 </span>
                 <h1 class="mt-4 text-4xl md:text-5xl font-bold font-display text-mist-900 tracking-tight leading-tight mb-5">
@@ -16,9 +16,8 @@
                     <span class="text-blue-600 italic font-normal">Built foryou. Scaled for growth.</span>
                 </h1>
                 <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">
-                    Off-the-shelf software makes you adapt
-                    to it. Custom software adapts to you. Code Wize builds web applications, internal tools, and
-                    business portals for Miami businesses - fixed price, no hourly billing.</p>
+                    Off-the-shelf software makes you adapt to it. Custom software adapts to you. Code Wize builds web applications, internal tools, and business portals for Miami businesses - fixed price, no hourly billing.
+                </p>
                 <div class="flex flex-wrap gap-3 items-center">
                     <a href="{{ route('contact') }}" class="btn-primary">
                         Talk through your idea &rarr;
@@ -29,8 +28,7 @@
                 </div>
             </div>
             <div class="rounded-2xl overflow-hidden bg-mist-200 h-64 md:h-100">
-                <img src="{{ asset('web/pexels-thisisengineering-3861959.webp') }}" alt=""
-                    class="w-full h-full object-cover" />
+                <img src="{{ asset('web/pexels-thisisengineering-3861959.webp') }}" alt="" class="w-full h-full object-cover" />
             </div>
         </div>
     </div>

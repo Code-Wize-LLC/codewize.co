@@ -2,7 +2,7 @@
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-end justify-between mb-10 flex-wrap gap-4">
             <div>
-                <span class="inline-flex items-center gap-1.5 bg-green-50 text-green-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span>Software Services</span>
+                <span class="inline-flex items-center gap-1.5 bg-green-50 text-green-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-green />Software Services</span>
                 <h2 class="mt-4 text-3xl md:text-4xl font-bold text-mist-900 tracking-tight mb-3">When the spreadsheet stops being enough.</h2>
                 <p class="text-base text-mist-500 leading-relaxed max-w-xl">Fixed-price projects. Free scoping call. No hourly billing - ever.</p>
             </div>

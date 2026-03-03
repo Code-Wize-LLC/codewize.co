@@ -10,7 +10,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <line x1="18" y1="20" x2="18" y2="10" />
                         <line x1="12" y1="20" x2="12" y2="4" />
@@ -21,7 +21,7 @@
                     revenue, pipeline, jobs in progress, outstanding invoices, renewal dates - updated in real time.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="3" y="3" width="18" height="18" rx="2" />
                         <path d="M3 9h18" />
@@ -32,7 +32,7 @@
                     balances, and expense summaries directly from QuickBooks - no exporting to Excel every time.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                         <polyline points="22,6 12,13 2,6" />
@@ -42,7 +42,7 @@
                     emailed to you - no one needs to pull data manually or remember to run the report.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <circle cx="11" cy="11" r="8" />
                         <line x1="21" y1="21" x2="16.65" y2="16.65" />
@@ -52,7 +52,7 @@
                     live view of deals in progress, upcoming renewals, and at-risk accounts so nothing slips.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                         <circle cx="9" cy="7" r="4" />
@@ -64,7 +64,7 @@
                     sees what's relevant, and clients can view their own data - all from the same system.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                         <polyline points="7 10 12 15 17 10" />

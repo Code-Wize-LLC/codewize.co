@@ -40,6 +40,10 @@
         @apply size-10 aspect-square rounded-xl bg-blue-50 flex items-center justify-center mb-5;
     }
 
+    .icon-wrapper-green {
+        @apply size-10 aspect-square rounded-xl bg-green-50 flex items-center justify-center mb-5;
+    }
+
     .badge-blue {
         @apply inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-bold tracking-widest text-blue-700 uppercase;
     }
@@ -51,7 +55,7 @@
         @apply px-5 py-2.5 rounded-xl font-semibold text-sm bg-mist-900 text-mist-50 hover:bg-blue-600 transition-colors;
     }
 
-    .btn-primary-inversed {
+    .btn-primary-inverse {
         @apply inline-block rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-mist-900 transition-colors hover:bg-blue-50 hover:text-blue-600;
     }
 

@@ -48,7 +48,7 @@
                         <li class="flex items-start gap-3 text-sm text-mist-300"><span class="text-blue-400 font-bold shrink-0 mt-0.5">&#10003;</span>24/7 monitoring included</li>
                         <li class="flex items-start gap-3 text-sm text-mist-300"><span class="text-blue-400 font-bold shrink-0 mt-0.5">&#10003;</span>No long-term contract required</li>
                     </ul>
-                    <a href="{{ route('contact') }}" class="btn-primary-inversed">Get a quote &rarr;</a>
+                    <a href="{{ route('contact') }}" class="btn-primary-inverse">Get a quote &rarr;</a>
                 </div>
                 <div class="bg-white rounded-2xl border border-mist-100 p-5 mt-4">
                     <p class="text-sm text-mist-500 leading-relaxed"><strong class="text-mist-900 font-semibold">Who

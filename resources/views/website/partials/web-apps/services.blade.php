@@ -9,7 +9,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
                         <circle cx="12" cy="7" r="4" />
@@ -19,7 +19,7 @@
                     documents, view status, sign agreements, and communicate - replacing endless email threads.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                         <polyline points="14 2 14 8 20 8" />
@@ -31,7 +31,7 @@
                     online intake - conditional questions, file uploads, e-signatures, and automatic data routing.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="3" y="4" width="18" height="18" rx="2" />
                         <line x1="16" y1="2" x2="16" y2="6" />
@@ -43,7 +43,7 @@
                     inspections, or consultations - integrated with your calendar and sending automatic confirmations.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="2" y="3" width="20" height="14" rx="2" />
                         <line x1="8" y1="21" x2="16" y2="21" />
@@ -54,7 +54,7 @@
                     work, and generating reports - built for your team's exact workflow.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <circle cx="12" cy="12" r="10" />
                         <line x1="2" y1="12" x2="22" y2="12" />
@@ -65,7 +65,7 @@
                     Miami-Dade local search and bring in the right clients - not templated sites that look generic.</p>
             </div>
             <div class="web-card">
-                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mb-5"><svg width="20"
+                <div class="icon-wrapper-green"><svg width="20"
                         height="20" fill="none" stroke="#16A34A" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="3" y="3" width="18" height="18" rx="2" />
                         <path d="M3 9h18" />
