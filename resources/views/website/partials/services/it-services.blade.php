@@ -2,7 +2,7 @@
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-end justify-between mb-10 flex-wrap gap-4">
             <div>
-                <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-blue />IT Services</span>
+                <span class="badge-blue"><flux:icon.dot-blue />IT Services</span>
                 <h2 class="mt-4 text-3xl md:text-4xl font-bold text-mist-900 tracking-tight mb-3">Keep everything running.</h2>
                 <p class="text-base text-mist-500 leading-relaxed max-w-xl">Flat monthly rate. No hourly billing. Remote and on-site support throughout Miami-Dade and South Broward.</p>
             </div>

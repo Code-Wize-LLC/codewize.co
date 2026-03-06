@@ -1,7 +1,7 @@
 <section class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6">
         <div class="mb-10">
-            <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-blue />Who We Serve</span>
+            <span class="badge-blue"><flux:icon.dot-blue />Who We Serve</span>
             <h2 class="mt-4 text-3xl md:text-4xl font-bold text-mist-900 tracking-tight mb-3">Focused on three industries.</h2>
             <p class="text-base text-mist-500 leading-relaxed max-w-2xl">Deep industry familiarity means less time explaining your business and more time solving problems. Code Wize works primarily with contractors, accountants, and insurance offices across Miami-Dade and South Broward.</p>
         </div>

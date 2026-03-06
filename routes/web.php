@@ -7,6 +7,7 @@ use App\Livewire\Settings\Profile;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'website.home')->name('home');
+Route::view('/about-us', 'website.about')->name('about');
 Route::view('/services', 'website.services')->name('services');
 Route::view('/services/it-support', 'website.it-support')->name('it-support');
 Route::view('/services/network-security', 'website.network-security')->name('network-security');

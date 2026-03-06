@@ -7,7 +7,7 @@
                     <span>/</span>
                     <span class="text-mist-600">Services</span>
                 </nav>
-                <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-blue />What We Do</span>
+                <span class="badge-blue"><flux:icon.dot-blue />What We Do</span>
                 <h1 class="mt-4 text-4xl md:text-5xl font-bold font-display text-mist-900 tracking-tight leading-tight mb-5">
                     IT Support & Custom Software.<br>
                     <span class="text-blue-600 italic font-normal">Two services. One partner.</span>

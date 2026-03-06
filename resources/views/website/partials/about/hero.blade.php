@@ -7,12 +7,12 @@
                     <span>/</span>
                     <span class="text-mist-600">About</span>
                 </nav>
-                <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-blue />About Code Wize</span>
+                <span class="badge-blue"><flux:icon.dot-blue />About Code Wize</span>
                 <h1 class="mt-4 text-4xl md:text-5xl font-bold font-display text-mist-900 tracking-tight leading-tight mb-5">
                     Miami's IT partner for<br> businesses that run on trust.
                     <br><span class="text-blue-600 italic font-normal">Built here. Focused here.</span>
                 </h1>
-                <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Code Wize is a Miami-based technology company that handles IT support and builds custom software for contractors, accountants, and insurance offices across Miami-Dade and South Broward. We've been doing this for over a decade - and we only work in our lane.</p>
+                <p class="text-base text-mist-500 leading-relaxed max-w-md mb-8">Code Wize is a Miami-based technology company that handles IT support and builds custom software for contractors, accountants, and insurance offices across Miami-Dade and South Broward. Owner-operated, with over a decade of hands-on experience in these three industries.</p>
                 <div class="flex flex-wrap gap-3 items-center">
                     <a href="{{ route('contact') }}" class="px-6 py-2.5 rounded-xl font-semibold text-sm bg-mist-900 text-mist-50 hover:bg-blue-600 transition-colors">Get in touch &rarr;</a>
                     <a href="{{ route('services') }}" class="px-5 py-2.5 rounded-xl font-semibold text-sm border border-mist-200 text-mist-700 hover:border-mist-400 transition-colors">See our services</a>
@@ -25,11 +25,11 @@
                     <div class="grid grid-cols-3 gap-3">
                         <div class="bg-mist-50/95 backdrop-blur-md rounded-xl px-4 py-3 text-center">
                             <p class="text-xl font-bold text-mist-900">10+</p>
-                            <p class="text-xs text-mist-500">Years in Miami</p>
+                            <p class="text-xs text-mist-500">Years experience</p>
                         </div>
                         <div class="bg-mist-50/95 backdrop-blur-md rounded-xl px-4 py-3 text-center">
-                            <p class="text-xl font-bold text-mist-900">50+</p>
-                            <p class="text-xs text-mist-500">Businesses served</p>
+                            <p class="text-xl font-bold text-mist-900">Owner</p>
+                            <p class="text-xs text-mist-500">Led &amp; operated</p>
                         </div>
                         <div class="bg-mist-50/95 backdrop-blur-md rounded-xl px-4 py-3 text-center">
                             <p class="text-xl font-bold text-mist-900">3</p>
