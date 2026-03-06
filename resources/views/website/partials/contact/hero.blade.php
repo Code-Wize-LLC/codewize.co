@@ -6,7 +6,7 @@
             <span class="text-mist-600">Contact</span>
         </nav>
         <div class="max-w-2xl">
-            <span class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-widest rounded-full px-3 py-1"><flux:icon.dot-blue />Get in Touch</span>
+            <span class="badge-blue"><flux:icon.dot-blue />Get in Touch</span>
             <h1 class="mt-4 text-4xl md:text-5xl font-bold font-display text-mist-900 tracking-tight leading-tight mb-5">
                 Let's talk about your tech.<br>
                 <span class="text-blue-600 italic font-normal">No pitch. Just honest answers.</span>

@@ -1,4 +1,4 @@
-<section class="pb-20 bg-white">
+<section class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div class="rounded-2xl border border-mist-100 bg-white p-7">

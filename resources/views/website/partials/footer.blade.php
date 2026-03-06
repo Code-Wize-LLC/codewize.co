@@ -13,7 +13,7 @@
                 <address class="not-italic mt-5 flex flex-col gap-1 text-sm">
                     <span>Pembroke Pines, Florida</span>
                     <a href="tel:17543649364" class="hover:text-mist-100 transition-colors">
-                        +1 754.364.9364
+                        +1 (754) 364-9364
                     </a>
                 </address>
             </div>
